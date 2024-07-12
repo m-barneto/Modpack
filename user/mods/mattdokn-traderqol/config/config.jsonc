@@ -1,0 +1,31 @@
+{
+    // Multiplies the cost of every trader item in the game
+    "priceMultiplier": 1.0,
+    // Multiplies the money spent amount required to unlock trader loyalty levels.
+    "minSalesMultiplier": 1.0,
+
+    // Options for changing the currency each trader uses
+    "singleCurrencySettings": {
+        "enabled": true,
+        // Valid options are RUB EUR USD
+        "targetCurrency": "RUB",
+        // Exchange rates for each currency relative to roubles
+        // 1 dollar is equal to 154 roubles
+        "dollarExchangeRate": 154,
+        "euroExchangeRate": 168
+    },
+    // Options for modifying quest's reputation gain
+    "questReputationSettings": {
+        "enabled": true,
+        // Multiplies the amount of reputation you get for completing a quest
+        "repMultiplier": 1.5,
+        // Whether or not to apply the above multiplier to -rep rewards as well
+        "multiplyNegativeReputationRewards": false
+    },
+    // Options for modifying insurance settings
+    "insuranceSettings": {
+        "enabled": true,
+        // Multiplies the cost of insurance (Bigger number = higher cost to insure)
+        "insuranceCostMultiplier": 35.0
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "client": {
+        "useBtr": true,
+        "friendlyFire": true,
+        "dynamicVExfils": false,
+        "allowFreeCam": true,
+        "allowItemSending": true,
+        "blacklistedItems": [],
+        "forceSaveOnDeath": true,
+        "mods": {
+            "required": [],
+            "optional": []
+        },
+        "useInertia": false,
+        "sharedQuestProgression": false
+    },
+    "server": {
+        "giftedItemsLoseFIR": true,
+        "launcherListAllProfiles": false,
+        "sessionTimeout": 5,
+        "showDevProfile": false,
+        "showNonStandardProfile": false
+    },
+    "natPunchServer": {
+        "enable": false,
+        "port": 6790,
+        "natIntroduceAmount": 1
+    }
+}

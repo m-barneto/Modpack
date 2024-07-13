@@ -1,0 +1,1981 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (7/6/2024 4:57:16 PM)
+[Info   :   BepInEx] Running under Unity v0.14.9.3062
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.9.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 37 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.6.3]
+[Info   :   BepInEx] Loading [Quieter Faceshield Breathing 1.0.1]
+[Info   :ModulePatch] Enabled patch PlayerCheckMuffledState
+[Info   :ModulePatch] Enabled patch SimpleSourcePlay
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [Use items anywhere 1.1.1]
+[Info   :ModulePatch] Enabled patch IsAtBindablePlace
+[Info   :ModulePatch] Enabled patch IsAtReachablePlace
+[Info   :   BepInEx] Loading [dvize.ExperienceForeverReboot 1.1.0]
+[Info   :ModulePatch] Enabled patch LevelBalancePatch
+[Info   :   BepInEx] Loading [SPT.Custom 3.9.0]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotCallForHelpCallBotPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/BossConvert
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/BossConvert
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRControllerInitPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch BTRPathConfigMapPrefixPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :ModulePatch] Enabled patch DisablePvEPatch
+[Info   :ModulePatch] Enabled patch InsurancePlaceItem
+[Info   :ModulePatch] Enabled patch FileCachePatch
+[Info   :ModulePatch] Enabled patch PMCSpawnParamPatch
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [spt.Singleplayer 3.9.0]
+[Info   :spt.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch MidRaidAchievementChangePatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :spt.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Core 3.9.0]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [SPT.Debugging 3.9.0]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 0.9.8954]
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] UseBTR: True
+[Info   : Fika.Core] FriendlyFire: True
+[Info   : Fika.Core] DynamicVExfils: False
+[Info   : Fika.Core] AllowFreeCam: True
+[Info   : Fika.Core] AllowItemSending: True
+[Info   : Fika.Core] BlacklistedItems: 
+[Info   : Fika.Core] ForceSaveOnDeath: True
+[Info   : Fika.Core] UseInertia: False
+[Info   : Fika.Core] SharedQuestProgression: False
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   :ModulePatch] Enabled patch FikaVersionLabel_Patch
+[Info   :ModulePatch] Enabled patch DisableReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFade_Patch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WeatherNode_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch BotCacher_Patch
+[Info   :ModulePatch] Enabled patch InventoryScroll_Patch
+[Info   :ModulePatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   :ModulePatch] Enabled patch DisconnectButton_Patch
+[Info   :ModulePatch] Enabled patch ChangeGameModeButton_Patch
+[Info   :ModulePatch] Enabled patch MenuTaskBar_Patch
+[Info   :ModulePatch] Enabled patch TOS_Patch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch DisablePvEPatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch_Override
+[Info   :ModulePatch] Enabled patch ScavProfileLoad_Override
+[Info   :ModulePatch] Enabled patch MaxBotPatch_Override
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch_Override
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch_Override
+[Info   :ModulePatch] Enabled patch FikaAirdropFlare_Patch
+[Info   : Fika.Core] Fika is loaded! Running version: 0.9.8954.37147
+[Info   :RequestHandler] [REQUEST]: /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/airdrop/config
+[Info   :ModulePatch] Enabled patch ItemContext_Patch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   :   BepInEx] Loading [Kaeno-TraderScrolling 1.1.0]
+[Info   :ModulePatch] Enabled patch TraderScrollingPatch
+[Info   :ModulePatch] Enabled patch PlayerCardPatch
+[Info   :   BepInEx] Loading [EFTReflection 1.2.2]
+[Info   :   BepInEx] Loading [EFTApi 1.2.2]
+[Info   :   BepInEx] Loading [EFTConfiguration 1.2.2]
+[Info   :   BepInEx] Loading [EFTUtils 1.2.2]
+[Info   :   BepInEx] Loading [GamePanelHUDCore 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDCompass 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDGrenade 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDHealth 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDHit 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDKill 3.1.1]
+[Info   :   BepInEx] Loading [GamePanelHUDWeapon 3.1.1]
+[Info   :   BepInEx] Loading [HandsAreNotBusy 1.3.0]
+[Info   :HandsAreNotBusy] HANB_Plugin has been loaded.
+[Info   :ModulePatch] Enabled patch HANB_Patch
+[Info   :   BepInEx] Loading [DynamicMaps 0.3.2]
+[Warning:  HarmonyX] BattleUIScreenShowPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch BattleUIScreenShowPatch
+[Info   :ModulePatch] Enabled patch CommonUIAwakePatch
+[Info   :ModulePatch] Enabled patch MapScreenShowPatch
+[Info   :ModulePatch] Enabled patch MapScreenClosePatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch GameWorldUnregisterPlayerPatch
+[Info   :ModulePatch] Enabled patch GameWorldRegisterLootItemPatch
+[Info   :ModulePatch] Enabled patch GameWorldDestroyLootPatch
+[Info   :ModulePatch] Enabled patch AirdropBoxOnBoxLandPatch
+[Info   :ModulePatch] Enabled patch PlayerOnDeadPatch
+[Info   :ModulePatch] Enabled patch PlayerInventoryThrowItemPatch
+[Info   :   BepInEx] Loading [VCQL-Zones 2.0.2]
+[Info   :ModulePatch] Enabled patch GameWorldPatch
+[Info   :   BepInEx] Loading [HealingAutoCancel 1.0.0]
+[Info   :ModulePatch] Enabled patch HealingAutoCancelPatch
+[Info   :   BepInEx] Loading [LootValue 3.0.0]
+[Info   :ModulePatch] Enabled patch TraderPatch
+[Info   :ModulePatch] Enabled patch ShowTooltipPatch
+[Info   :ModulePatch] Enabled patch GridItemOnPointerEnterPatch
+[Info   :ModulePatch] Enabled patch GridItemOnPointerExitPatch
+[Info   :ModulePatch] Enabled patch ItemViewOnClickPatch
+[Info   :   BepInEx] Loading [Open The Damn Context Menu 1.0.0]
+[Info   :Open The Damn Context Menu] OpenTheDamnContextMenu plugin loaded!
+[Info   :ModulePatch] Enabled patch OpenTheDamnContextMenu
+[Info   :   BepInEx] Loading [BossNotifier 1.5.0]
+[Info   :ModulePatch] Enabled patch BossLocationSpawnPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch BotBossPatch
+[Info   :BossNotifier] Plugin BossNotifier is loaded!
+[Info   :   BepInEx] Loading [FUInertiaRedux 1.2.0]
+[Info   :ModulePatch] Enabled patch GetGlobalConfigPatch
+[Warning:  HarmonyX] PlayerPhysicalClassPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method float BasePhysicalClass::CalculateValue(UnityEngine.Vector3 dependency, float weight) instead of float BasePhysicalClass::CalculateValue(UnityEngine.Vector3 dependency, float weight).
+[Info   :ModulePatch] Enabled patch PlayerPhysicalClassPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.0.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [LootingBots 1.3.5]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.5.0]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :   BepInEx] Loading [SAIN 3.0.3]
+[Info   :ModulePatch] Enabled patch StopRefillMagsPatch
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch2
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ScatterPatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch DoThrowPatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :   BepInEx] Loading [Tyfon.UIFixes 2.1.0]
+[Info   :ModulePatch] Enabled patch DialogWindowPatch
+[Info   :ModulePatch] Enabled patch ItemUiContextWindowPatch
+[Info   :ModulePatch] Enabled patch ErrorScreenPatch
+[Info   :ModulePatch] Enabled patch AddOfferPatch
+[Info   :ModulePatch] Enabled patch ClickOutPatch
+[Info   :ModulePatch] Enabled patch ClickOutSplitDialogPatch
+[Info   :ModulePatch] Enabled patch ClickOutItemsListPatch
+[Info   :ModulePatch] Enabled patch ClickOutErrorScreenPatch
+[Info   :ModulePatch] Enabled patch FixMailRecieveAllPatch
+[Info   :ModulePatch] Enabled patch QuestTooltipPatch
+[Info   :ModulePatch] Enabled patch ArmorTooltipPatch
+[Info   :ModulePatch] Enabled patch FixWeaponBindsDisplayPatch
+[Info   :ModulePatch] Enabled patch FixVisibilityPatch
+[Info   :ModulePatch] Enabled patch TranslateCommandHackPatch
+[Info   :ModulePatch] Enabled patch MoneyPatch
+[Info   :ModulePatch] Enabled patch BarterPatch
+[Info   :ModulePatch] Enabled patch LazyLoadPatch
+[Info   :ModulePatch] Enabled patch RestoreHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch SaveHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch CloseHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch FastHideoutSearchPatch
+[Info   :ModulePatch] Enabled patch FixHideoutSearchAgainPatch
+[Info   :ModulePatch] Enabled patch CancelScrollOnMouseWheelPatch
+[Info   :ModulePatch] Enabled patch BlockHideoutEnterPatch
+[Info   :ModulePatch] Enabled patch SelectAreaPatch
+[Info   :ModulePatch] Enabled patch ChangeLevelPatch
+[Info   :ModulePatch] Enabled patch PickInitialLevelPatch
+[Info   :ModulePatch] Enabled patch ClearLevelPatch
+[Info   :ModulePatch] Enabled patch SaveInspectWindowSizePatch
+[Info   :ModulePatch] Enabled patch AddInspectWindowButtonsPatch
+[Info   :ModulePatch] Enabled patch GrowInspectWindowDescriptionPatch
+[Info   :ModulePatch] Enabled patch LeftRightKeybindsPatch
+[Info   :ModulePatch] Enabled patch AddShowHideModStatsButtonPatch
+[Info   :ModulePatch] Enabled patch CalculateModStatsPatch
+[Info   :ModulePatch] Enabled patch CompareModStatsPatch
+[Info   :ModulePatch] Enabled patch FormatCompactValuesPatch
+[Info   :ModulePatch] Enabled patch FormatFullValuesPatch
+[Info   :ModulePatch] Enabled patch FixDurabilityBarPatch
+[Info   :ModulePatch] Enabled patch RemoveDoorActionsPatch
+[Info   :ModulePatch] Enabled patch EnhanceStashScrollingPatch
+[Info   :ModulePatch] Enabled patch EnchanceTraderStashScrollingPatch
+[Info   :ModulePatch] Enabled patch EnhanceFleaScrollingPatch
+[Info   :ModulePatch] Enabled patch EnhanceMailScrollingPatch
+[Info   :ModulePatch] Enabled patch MouseScrollingSpeedPatch
+[Info   :ModulePatch] Enabled patch EnhanceHideoutScrollingPatch
+[Info   :ModulePatch] Enabled patch EnhanceTaskListScrollingPatch
+[Info   :ModulePatch] Enabled patch OpenLastTaskPatch
+[Info   :ModulePatch] Enabled patch ContainerStackPatch
+[Info   :ModulePatch] Enabled patch TopUpStackPatch
+[Info   :ModulePatch] Enabled patch DetectSwapSourceContainerPatch
+[Info   :ModulePatch] Enabled patch CleanupSwapSourceContainerPatch
+[Info   :ModulePatch] Enabled patch GridViewCanAcceptSwapPatch
+[Info   :ModulePatch] Enabled patch DetectGridHighlightPrecheckPatch
+[Info   :ModulePatch] Enabled patch DetectSlotHighlightPrecheckPatch
+[Info   :ModulePatch] Enabled patch SlotCanAcceptSwapPatch
+[Info   :ModulePatch] Enabled patch DetectFilterForSwapPatch
+[Info   :ModulePatch] Enabled patch FixNoGridErrorPatch
+[Info   :ModulePatch] Enabled patch SwapOperationRaiseEventsPatch
+[Info   :ModulePatch] Enabled patch RememberSwapGridHoverPatch
+[Info   :ModulePatch] Enabled patch InspectWindowUpdateStatsOnSwapPatch
+[Info   :ModulePatch] Enabled patch FixAddModFirearmOperationPatch
+[Info   :ModulePatch] Enabled patch HideScaryTooltipPatch
+[Info   :ModulePatch] Enabled patch SyncStashScrollPatch
+[Info   :ModulePatch] Enabled patch SyncTraderStashScrollPatch
+[Info   :ModulePatch] Enabled patch SyncOfferStashScrollPatch
+[Info   :ModulePatch] Enabled patch TransferConfirmPatch
+[Info   :ModulePatch] Enabled patch DetectWeaponPresetCloseTypePatch
+[Info   :ModulePatch] Enabled patch ConfirmDiscardWeaponPresetChangesPatch
+[Info   :ModulePatch] Enabled patch EditBuildScreenZoomPatch
+[Info   :ModulePatch] Enabled patch WeaponModdingScreenZoomPatch
+[Info   :ModulePatch] Enabled patch MoveTaskbarPatch
+[Info   :ModulePatch] Enabled patch DoNotToggleOnMouseOverPatch
+[Info   :ModulePatch] Enabled patch ToggleOnOpenPatch
+[Info   :ModulePatch] Enabled patch OfferItemFixMaskPatch
+[Info   :ModulePatch] Enabled patch OfferViewTweaksPatch
+[Info   :ModulePatch] Enabled patch RagfairScreenShowPatch
+[Info   :ModulePatch] Enabled patch OfferViewListCategoryPickedPatch
+[Info   :ModulePatch] Enabled patch OfferViewListDoneLoadingPatch
+[Info   :ModulePatch] Enabled patch ChangedViewListTypePatch
+[Info   :ModulePatch] Enabled patch GetTaskCompletionSourcePatch
+[Info   :ModulePatch] Enabled patch PlaceOfferClickPatch
+[Info   :ModulePatch] Enabled patch ClosePatch
+[Info   :ModulePatch] Enabled patch ManageTaskPatch
+[Info   :ModulePatch] Enabled patch AddButtonPatch
+[Info   :ModulePatch] Enabled patch AssortUnlocksPatch
+[Info   :ModulePatch] Enabled patch AutofillQuestItemsPatch
+[Info   :ModulePatch] Enabled patch ContextMenuNamesPatch
+[Info   :ModulePatch] Enabled patch PositionSubMenuPatch
+[Info   :ModulePatch] Enabled patch PositionInsuranceSubMenuPatch
+[Info   :ModulePatch] Enabled patch DeclareSubInteractionsInventoryPatch
+[Info   :ModulePatch] Enabled patch CreateSubInteractionsInventoryPatch
+[Warning:  HarmonyX] DeclareSubInteractionsTradingPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual System.Collections.Generic.IEnumerable<EFT.InventoryLogic.EItemInfoButton> ItemInfoInteractionsAbstractClass::get_SubInteractions() instead of virtual System.Collections.Generic.IEnumerable<EFT.InventoryLogic.EItemInfoButton> ItemInfoInteractionsAbstractClass::get_SubInteractions().
+[Info   :ModulePatch] Enabled patch DeclareSubInteractionsTradingPatch
+[Warning:  HarmonyX] CreateSubInteractionsTradingPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void ItemInfoInteractionsAbstractClass::CreateSubInteractions(EFT.InventoryLogic.EItemInfoButton parentInteraction, ISubInteractions subInteractionsWrapper) instead of virtual void ItemInfoInteractionsAbstractClass::CreateSubInteractions(EFT.InventoryLogic.EItemInfoButton parentInteraction, ISubInteractions subInteractionsWrapper).
+[Info   :ModulePatch] Enabled patch CreateSubInteractionsTradingPatch
+[Info   :ModulePatch] Enabled patch SniffInteractionButtonCreationPatch
+[Info   :ModulePatch] Enabled patch ChangeInteractionButtonCreationPatch
+[Info   :ModulePatch] Enabled patch EnableInsureInnerItemsPatch
+[Info   :ModulePatch] Enabled patch DisableLoadPresetOnBulletsPatch
+[Info   :ModulePatch] Enabled patch EmptySlotMenuPatch
+[Info   :ModulePatch] Enabled patch EmptySlotMenuRemovePatch
+[Info   :ModulePatch] Enabled patch GetTraderScreensGroupPatch
+[Info   :ModulePatch] Enabled patch SwitchOnClickPatch
+[Info   :ModulePatch] Enabled patch RememberAutoselectPatch
+[Info   :ModulePatch] Enabled patch RestoreAutoselectPatch
+[Info   :ModulePatch] Enabled patch SniffChatPanelClosePatch
+[Info   :ModulePatch] Enabled patch ReopenMessagesPatch
+[Info   :ModulePatch] Enabled patch FocusTradeQuantityPatch
+[Info   :ModulePatch] Enabled patch RememberRepairerPatch
+[Info   :ModulePatch] Enabled patch DefaultMaxRepairPatch
+[Info   :ModulePatch] Enabled patch GridWindowButtonsPatch
+[Info   :ModulePatch] Enabled patch LoadMagPresetsPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch KeepWindowOnScreenPatch
+[Info   :ModulePatch] Enabled patch ItemUiContextPatch
+[Info   :ModulePatch] Enabled patch HideoutItemViewRegisterContextPatch
+[Warning:  HarmonyX] HideoutItemViewUnegisterContextPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void EFT.UI.DragAndDrop.GridItemView::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData) instead of virtual void EFT.UI.DragAndDrop.GridItemView::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData).
+[Info   :ModulePatch] Enabled patch HideoutItemViewUnegisterContextPatch
+[Info   :ModulePatch] Enabled patch TradingPanelRegisterContextPatch
+[Info   :ModulePatch] Enabled patch TradingPanelUnregisterContextPatch
+[Info   :ModulePatch] Enabled patch SelectCurrentContextPatch
+[Info   :ModulePatch] Enabled patch DeselectCurrentContextPatch
+[Info   :ModulePatch] Enabled patch OpenSortingTablePatch
+[Info   :ModulePatch] Enabled patch EnableContextMenuPatch
+[Info   :ModulePatch] Enabled patch SlowLoadingPatch
+[Info   :ModulePatch] Enabled patch InitializeCommonUIPatch
+[Info   :ModulePatch] Enabled patch InitializeMenuUIPatch
+[Info   :ModulePatch] Enabled patch SelectOnMouseDownPatch
+[Info   :ModulePatch] Enabled patch DeselectOnTradingItemViewClickPatch
+[Info   :ModulePatch] Enabled patch HandleItemViewInitPatch
+[Info   :ModulePatch] Enabled patch HandleItemViewKillPatch
+[Info   :ModulePatch] Enabled patch BeginDragPatch
+[Info   :ModulePatch] Enabled patch EndDragPatch
+[Info   :ModulePatch] Enabled patch DisableSplitPatch
+[Info   :ModulePatch] Enabled patch DisableSplitTargetPatch
+[Info   :ModulePatch] Enabled patch ItemViewClickPatch
+[Info   :ModulePatch] Enabled patch ContextActionsPatch
+[Info   :ModulePatch] Enabled patch StopProcessesPatch
+[Info   :ModulePatch] Enabled patch GridViewCanAcceptPatch
+[Info   :ModulePatch] Enabled patch GridViewAcceptItemPatch
+[Info   :ModulePatch] Enabled patch GridViewPickTargetPatch
+[Info   :ModulePatch] Enabled patch GridViewDisableHighlightPatch
+[Info   :ModulePatch] Enabled patch GridViewClearTooltipPatch
+[Info   :ModulePatch] Enabled patch SlotViewCanAcceptPatch
+[Info   :ModulePatch] Enabled patch SlotViewAcceptItemPatch
+[Info   :ModulePatch] Enabled patch TradingTableCanAcceptPatch
+[Info   :ModulePatch] Enabled patch TradingTableAcceptItemPatch
+[Info   :ModulePatch] Enabled patch TradingTableGetHighlightColorPatch
+[Info   :ModulePatch] Enabled patch FindSpotKeepRotationPatch
+[Info   :ModulePatch] Enabled patch FindPlaceToPutPatch
+[Info   :ModulePatch] Enabled patch AdjustQuickFindFlagsPatch
+[Info   :ModulePatch] Enabled patch ReorderContainersPatch
+[Info   :ModulePatch] Enabled patch AllowFindSameSpotPatch
+[Info   :ModulePatch] Enabled patch FixUnloadLastBulletPatch
+[Info   :ModulePatch] Enabled patch GridViewPatch
+[Info   :ModulePatch] Enabled patch SlotViewPatch
+[Info   :ModulePatch] Enabled patch TradingPlayerPatch
+[Info   :ModulePatch] Enabled patch TransferPlayerPatch
+[Info   :ModulePatch] Enabled patch UnloadScavTransferPatch
+[Info   :ModulePatch] Enabled patch NoScavStashPatch
+[Info   :ModulePatch] Enabled patch FixTraderControllerSimulateFalsePatch
+[Info   :ModulePatch] Enabled patch FindCompatibleAmmoPatch
+[Info   :ModulePatch] Enabled patch CheckItemFilterPatch
+[Info   :ModulePatch] Enabled patch LoadAmmoPatch
+[Info   :ModulePatch] Enabled patch FilterMagPresetsPatch
+[Info   :ModulePatch] Enabled patch LoadPresetPatch
+[Info   :ModulePatch] Enabled patch PutToolsBackPatch
+[Info   :ModulePatch] Enabled patch RebindGrenadesPatch
+[Info   :ModulePatch] Enabled patch AddStatesPatch
+[Info   :ModulePatch] Enabled patch UpdateInputPatch
+[Info   :ModulePatch] Enabled patch ReorderGridsPatch
+[Info   :ModulePatch] Enabled patch ItemCreationPatch
+[Info   :ModulePatch] Enabled patch MoneyPanelPatch
+[Info   :ModulePatch] Enabled patch MoneyPanelTMPTextPatch
+[Info   :ModulePatch] Enabled patch HandbookWorkaroundPatch
+[Info   :   BepInEx] Loading [MoreCheckmarks 1.5.14]
+[Info   :   BepInEx] Loading [DrakiaXYZ-SearchOpenContainers 1.1.0]
+[Info   :DrakiaXYZ-SearchOpenContainers] [SearchOpenContainers] Loading...
+[Info   :ModulePatch] Enabled patch ContainerMenuPatch
+[Info   :DrakiaXYZ-SearchOpenContainers] [SearchOpenContainers] Loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Warning:  HarmonyX] AmandsBattleUIScreenPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Message:EFTVersion] GameVersion:0.14.9.30626 AkiVersion:3.9.0 FikaVersion:0.9.8954.37147
+[Info   :BaseModulePatch] Enabled patch GamePlayerOwnerPatchs
+[Info   :BaseModulePatch] Enabled patch TriggerWithIdPatchs
+[Message: ModVerify] AmandsGraphics PluginVersion:1.6.3 FileVersion:1.6.3.0 CRC32:AA102315
+[Message: ModVerify] Arys-QuieterFaceshieldBreathing PluginVersion:1.0.1 FileVersion:1.0.0.0 CRC32:54EE53B4
+[Message: ModVerify] ConfigurationManager PluginVersion:18.0.1 FileVersion:18.0.1.0 CRC32:923AEE97
+[Message: ModVerify] UseItemsFromAnywhere PluginVersion:1.1.1 FileVersion:1.0.1.0 CRC32:60AA6069
+[Message: ModVerify] dvize.ExperienceForeverReboot PluginVersion:1.1.0 FileVersion:1.1.0.0 CRC32:6BB0CDB8
+[Message: ModVerify] spt-custom PluginVersion:3.9.0 FileVersion:3.9.0.0 CRC32:25596EE8
+[Message: ModVerify] spt-singleplayer PluginVersion:3.9.0 FileVersion:3.9.0.0 CRC32:14A6CB1A
+[Message: ModVerify] spt-core PluginVersion:3.9.0 FileVersion:3.9.0.0 CRC32:353A67
+[Message: ModVerify] spt-debugging PluginVersion:3.9.0 FileVersion:3.9.0.0 CRC32:70A2F175
+[Message: ModVerify] Fika.Core PluginVersion:0.9.8954 FileVersion:0.9.8954.37147 CRC32:D5599312
+[Message: ModVerify] Kaeno-TraderScrolling PluginVersion:1.1.0 FileVersion:1.0.0.0 CRC32:8B84F203
+[Message: ModVerify] EFTReflection PluginVersion:1.2.2 FileVersion:1.2.2.0 CRC32:886C6007
+[Message: ModVerify] EFTApi PluginVersion:1.2.2 FileVersion:1.2.2.0 CRC32:CA78C3AB
+[Message: ModVerify] EFTConfiguration PluginVersion:1.2.2 FileVersion:1.2.2.0 CRC32:2AD7FBB9
+[Message: ModVerify] EFTUtils PluginVersion:1.2.2 FileVersion:1.2.2.0 CRC32:E317E4FE
+[Message: ModVerify] GamePanelHUDCore PluginVersion:3.1.1 FileVersion:3.1.1.0  CRC32:4529B83
+[Message: ModVerify] GamePanelHUDCompass PluginVersion:3.1.1 FileVersion:3.1.1.0  CRC32:9C5AE2EF
+[Message: ModVerify] GamePanelHUDGrenade PluginVersion:3.1.1 FileVersion:3.1.1.0 CRC32:8FA665E2
+[Message: ModVerify] GamePanelHUDHealth PluginVersion:3.1.1 FileVersion:3.1.1.0 CRC32:AD03BE71
+[Message: ModVerify] GamePanelHUDHit PluginVersion:3.1.1 FileVersion:3.1.1.0 CRC32:979A8472
+[Message: ModVerify] GamePanelHUDKill PluginVersion:3.1.1 FileVersion:3.1.1.0  CRC32:A2A6D245
+[Message: ModVerify] GamePanelHUDWeapon PluginVersion:3.1.1 FileVersion:3.1.1.0 CRC32:9B792043
+[Message: ModVerify] HandsAreNotBusy PluginVersion:1.3.0 FileVersion:1.0.0.0 CRC32:88EA5AA1
+[Message: ModVerify] DynamicMaps PluginVersion:0.3.2 FileVersion:0.3.2.0 CRC32:CA16D153
+[Message: ModVerify] VCQLQuestZones PluginVersion:2.0.2 FileVersion:1.0.0.0 CRC32:52E9E341
+[Message: ModVerify] IhanaMies-HealingAutoCancel PluginVersion:1.0.0 FileVersion:1.0.0.0 CRC32:A3B84793
+[Message: ModVerify] LootValue PluginVersion:3.0.0 FileVersion:3.0.0.0 CRC32:4A413578
+[Message: ModVerify] OpenTheDamnContextMenu_3.9.0 PluginVersion:1.0.0 FileVersion:1.0.0.0 CRC32:C9F994E2
+[Message: ModVerify] BossNotifier PluginVersion:1.5.0 FileVersion:1.0.0.0 CRC32:5CA015A1
+[Message: ModVerify] FUInertiaRedux PluginVersion:1.2.0 FileVersion:1.0.0.0 CRC32:D45054FB
+[Message: ModVerify] DrakiaXYZ-BigBrain PluginVersion:1.0.0 FileVersion:1.0.0.0 CRC32:15A5A33A
+[Message: ModVerify] skwizzy.LootingBots PluginVersion:1.3.5 FileVersion:0.0.0.0 CRC32:5495B373
+[Message: ModVerify] DrakiaXYZ-Waypoints PluginVersion:1.5.0 FileVersion:1.5.0.0 CRC32:895A3ED1
+[Message: ModVerify] SAIN PluginVersion:3.0.3 FileVersion:3.0.3 CRC32:7F9B4710
+[Message: ModVerify] Tyfon.UIFixes PluginVersion:2.1.0 FileVersion:2.1.0.0 CRC32:50CFF7F5
+[Message: ModVerify] MoreCheckmarks PluginVersion:1.5.14 FileVersion:1.5.14.0 CRC32:2B7CBBDC
+[Message: ModVerify] DrakiaXYZ-SearchOpenContainers PluginVersion:1.1.0 FileVersion:1.1.0.0 CRC32:2EA84F4
+[Info   :MoreCheckmarks] MoreCheckmarks Started
+[Info   :MoreCheckmarks] Configs loaded
+[Info   :MoreCheckmarks] Assets loaded
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/items
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/item_keycard_labs_spec.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/Golden_Key_Pouch.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/Golden_Keychain3.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/Golden_Keychain2.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/Golden_Keychain1.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/item_keycard_lab_mesh
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/Golden_Keycard_Case.bundle
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT 3.9.0 - 002209
+[Info   :DynamicMaps] Trying to attach to MapScreen
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Customs_TarkovDev\Customs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Customs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Factory_TarkovDev\Factory_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Factory (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\GroundZero_TarkovDev\GroundZero_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Ground Zero (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Interchange_TarkovDev\Interchange_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Interchange (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Labs_TarkovDev\Labs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Labs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Lighthouse_TarkovData\Lighthouse_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Lighthouse (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Reserve_TarkovData\Reserve_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Reserve (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Shoreline_TarkovData\Shoreline_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Shoreline (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Streets_TarkovData\Streets_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Streets of Tarkov (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\Games\SPT 3.9.0 - Fika\BepInEx\plugins\DynamicMaps\Maps\Woods_TarkovData\Woods_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Woods (TarkovData)
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_-1.png
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_0.png
+[Info   :FikaModHandler] Loaded plugin: [Graphics] with GUID [com.Amanda.Graphics] and crc32 [2853184277]
+[Info   :FikaModHandler] Loaded plugin: [Quieter Faceshield Breathing] with GUID [com.Arys.QuieterFaceshieldBreathing] and crc32 [1424905140]
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [Use items anywhere] with GUID [com.dirtbikercj.useFromAnywhere] and crc32 [1621778537]
+[Info   :FikaModHandler] Loaded plugin: [dvize.ExperienceForeverReboot] with GUID [com.dvize.ExperienceForeverReboot] and crc32 [1806749112]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [626618088]
+[Info   :FikaModHandler] Loaded plugin: [spt.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [346475290]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [3488359]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [1889726837]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [3579417362]
+[Info   :FikaModHandler] Loaded plugin: [Kaeno-TraderScrolling] with GUID [com.kaeno.TraderScrolling] and crc32 [2340745731]
+[Info   :FikaModHandler] Loaded plugin: [EFTReflection] with GUID [com.kmyuhkyuk.EFTReflection] and crc32 [2288803847]
+[Info   :FikaModHandler] Loaded plugin: [EFTApi] with GUID [com.kmyuhkyuk.EFTApi] and crc32 [3396912043]
+[Info   :FikaModHandler] Loaded plugin: [EFTConfiguration] with GUID [com.kmyuhkyuk.EFTConfiguration] and crc32 [718797753]
+[Info   :FikaModHandler] Loaded plugin: [EFTUtils] with GUID [com.kmyuhkyuk.EFTUtils] and crc32 [3809993982]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDCore] with GUID [com.kmyuhkyuk.GamePanelHUDCore] and crc32 [72522627]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDCompass] with GUID [com.kmyuhkyuk.GamePanelHUDCompass] and crc32 [2623202031]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDGrenade] with GUID [com.kmyuhkyuk.GamePanelHUDGrenade] and crc32 [2410046946]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDHealth] with GUID [com.kmyuhkyuk.GamePanelHUDHealth] and crc32 [2902703729]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDHit] with GUID [com.kmyuhkyuk.GamePanelHUDHit] and crc32 [2543486066]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDKill] with GUID [com.kmyuhkyuk.GamePanelHUDKill] and crc32 [2728841797]
+[Info   :FikaModHandler] Loaded plugin: [GamePanelHUDWeapon] with GUID [com.kmyuhkyuk.GamePanelHUDWeapon] and crc32 [2608406595]
+[Info   :FikaModHandler] Loaded plugin: [HandsAreNotBusy] with GUID [com.lacyway.hanb] and crc32 [2297060001]
+[Info   :FikaModHandler] Loaded plugin: [DynamicMaps] with GUID [com.mpstark.DynamicMaps] and crc32 [3390493011]
+[Info   :FikaModHandler] Loaded plugin: [VCQL-Zones] with GUID [com.virtual.vcql] and crc32 [1391059777]
+[Info   :FikaModHandler] Loaded plugin: [HealingAutoCancel] with GUID [HealingAutoCancel] and crc32 [2746763155]
+[Info   :FikaModHandler] Loaded plugin: [LootValue] with GUID [IhanaMies.LootValue] and crc32 [1245787512]
+[Info   :FikaModHandler] Loaded plugin: [Open The Damn Context Menu] with GUID [JD.OpenTheDamnContextMenu] and crc32 [3388576994]
+[Info   :FikaModHandler] Loaded plugin: [BossNotifier] with GUID [Mattdokn.BossNotifier] and crc32 [1553995169]
+[Info   :FikaModHandler] Loaded plugin: [FUInertiaRedux] with GUID [Mattdokn.FUInertiaRedux] and crc32 [3562034427]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [363176762]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [1419096947]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [2304392913]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [2140882704]
+[Info   :FikaModHandler] Loaded plugin: [Tyfon.UIFixes] with GUID [Tyfon.UIFixes] and crc32 [1355806709]
+[Info   :FikaModHandler] Loaded plugin: [MoreCheckmarks] with GUID [VIP.TommySoucy.MoreCheckmarks] and crc32 [729594844]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-SearchOpenContainers] with GUID [xyz.drakia.searchopencontainers] and crc32 [48923892]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Lighthouse_TarkovData/Layers/lighthouse_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_4.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_0.png
+[Info   :ModulePatch] Updating server-side inertia settings.
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :RequestHandler] [REQUEST]: /uifixes/assortUnlocks
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /uifixes/assortUnlocks
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :  CoopGame] Setting Spawn Point to: 91ec8f79-6cc4-422d-966f-4cd6a02d5a87
+[Info   :  CoopGame] Creating CoopHandler...
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :HandsAreNotBusy] Added HANB Component to player: Mattdokn
+[Info   :Fika.Server] Started Fika Server
+[Info   : Fika.Core] Setting up DogTag
+[Info   :  CoopGame] Setting game status to: COMPLETE
+[Info   :  CoopGame] Starting task to wait for other players.
+[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainTogglePatch
+[Info   : Fika.Core] Retrieving Core settings
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: test, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: test, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: test, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: test, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: impossible
+[Info   :ModulePatch] Open: 7  Closed: 20  Locked: 8
+[Info   :  CoopGame] Location: Factory
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/factory4_day
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/factory4_day
+[Warning:ModulePatch] Set max bot cap to: 13
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/bossTagilla
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/bossTagilla
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :  CoopGame] Running old spawn system. Waves: 27
+[Info   :FikaAirdropsManager] Initializing...
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: JRENPZ
+[Warning:FikaAirdropsManager] Destroying AirdropsManager
+[Info   :DynamicMaps] Trying to attach peek component to BattleUI
+[Info   :  CoopGame] SpawnPoint: 91ec8f79-6cc4-422d-966f-4cd6a02d5a87, InfiltrationPoint: Factory
+[Info   :BossNotifier] Game started on map factory4_day
+[Info   :RequestHandler] [REQUEST]: /vcql/zones/get
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /vcql/zones/get
+[Info   :DynamicMaps] Showing map in raid
+[Info   :DynamicMaps] MapScreen: Loading map Factory (TarkovDev)
+[Info   :DynamicMaps] Hiding map in raid
+[Info   :ModulePatch] 15:18:36 Loading bot: weardo98 profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 15:18:36 Loading bot: ThatGuyXIV profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:18:36 Loading bot: Fiaf profile from server. Role: pmcUSEC Side: Usec
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot weardo98: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 15:18:56 Loading bot: Dirtbikercj profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:18:56 Loading bot: aleves profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:18:57 Loading bot: CharlieMike profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot Dirtbikercj: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot CharlieMike: pmcUSEC to use: pmcBot brain
+[Info   :RequestHandler] [REQUEST]: /raid/profile/save
+[Info   :ModulePatch] 15:19:17 Loading bot: openingspark860 profile from server. Role: pmcUSEC Side: Usec
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /raid/profile/save
+[Info   :ModulePatch] 15:19:17 Loading bot: bluehead profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot openingspark860: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot bluehead: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot1) Has been stuck trying to reach: Weapon repair kit. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot3) Has been stuck trying to reach: RBattery. Ignoring
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Warning:  HarmonyX] AccessTools.Property: Could not find property for type GClass3119 and name Effects
+[Info   :ModulePatch] Updating server-side inertia settings.
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :BossNotifier] Boss Tagilla @ zone BotZone translated to 
+[Info   :  CoopGame] Setting Spawn Point to: 4755c538-4ee5-4125-8cd3-885787da7ad5
+[Info   :  CoopGame] Creating CoopHandler...
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :HandsAreNotBusy] Added HANB Component to player: Mattdokn
+[Info   :Fika.Server] Started Fika Server
+[Info   : Fika.Core] Setting up DogTag
+[Info   :  CoopGame] Setting game status to: COMPLETE
+[Info   :  CoopGame] Starting task to wait for other players.
+[Info   :ModulePatch] Open: 7  Closed: 20  Locked: 8
+[Info   :  CoopGame] Location: Factory
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/factory4_day
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/factory4_day
+[Warning:ModulePatch] Set max bot cap to: 13
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/bossTagilla
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/bossTagilla
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :  CoopGame] Running old spawn system. Waves: 15
+[Info   :FikaAirdropsManager] Initializing...
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: DGCKM7
+[Warning:FikaAirdropsManager] Destroying AirdropsManager
+[Info   :DynamicMaps] Trying to attach peek component to BattleUI
+[Info   :  CoopGame] SpawnPoint: 4755c538-4ee5-4125-8cd3-885787da7ad5, InfiltrationPoint: Factory
+[Info   :BossNotifier] Game started on map factory4_day
+[Info   :RequestHandler] [REQUEST]: /vcql/zones/get
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /vcql/zones/get
+[Info   :BossNotifier] Tagilla has been located.
+[Info   :ModulePatch] 15:20:58 Loading bot: PreyToLive profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 15:20:58 Loading bot: Тагилла profile from server. Role: bossTagilla Side: Savage
+[Info   :ModulePatch] 15:20:58 Loading bot: kmyuhkyuk profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:20:58 Loading bot: ItsRenke profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:20:58 Loading bot: Logical Solutions profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot ItsRenke: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Logical Solutions: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 15:21:19 Loading bot: Pherik profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 15:21:19 Loading bot: Claus1978 profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 15:21:19 Loading bot: Тагилла profile from server. Role: bossTagilla Side: Savage
+[Info   :ModulePatch] 15:21:19 Loading bot: Rena-chan profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot Claus1978: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Rena-chan: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 15:21:39 Loading bot: Тагилла profile from server. Role: bossTagilla Side: Savage
+[Info   :ModulePatch] 15:21:39 Loading bot: halik92 profile from server. Role: pmcBEAR Side: Bear
+[Info   :BossNotifier] Tagilla has spawned at -32, -2, 29 on factory4_day
+[Info   :BossNotifier] Tagilla has been located. ✓
+[Info   :ModulePatch] 15:21:59 Loading bot: Zersus profile from server. Role: pmcBEAR Side: Bear
+[Warning:ModulePatch] Updated spt bot Zersus: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 15:22:23 Loading bot: Микола Два-восемь profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:23 Loading bot: Кондратий Штырь profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:23 Loading bot: Арчи Новогодний (DannyR121) profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:24 Loading bot: Арсений Читер (DjLang) profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:24 Loading bot: Нойс Скрипка profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 15:22:43 Loading bot: Моня Генотип profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:43 Loading bot: Иржан Шайтан profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:43 Loading bot: Миха Морковник profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:43 Loading bot: Заур Хромой profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 15:22:49 Loading bot: Найк Дикий profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:50 Loading bot: Илюха Сыч profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:50 Loading bot: Сева Мультик profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:51 Loading bot: Миха Статтеринг profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:22:51 Loading bot: Ваня Кореец profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:23:49 Loading bot: Джонатан Опасный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:24:04 Loading bot: Валера Дымный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:24:04 Loading bot: Феликс Внесистемный profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:24:04 Loading bot: Трифон Пентиум profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:24:05 Loading bot: Антоха Потрошитель (ClaudioIonck) profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 15:24:05 Loading bot: Вадимка Ловелас profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :RequestHandler] [REQUEST]: /raid/profile/save
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /raid/profile/save
+[Warning: Fika.Core] Unable to remove e10a6f844fcb80334844cc4c from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove ee17b82adcb4cf868e8c7a8b from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove b1f1a02d7be6785405aec372 from CoopGame.Bots when Destroying
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Warning:  HarmonyX] AccessTools.Property: Could not find property for type GClass3119 and name Effects
+[Info   :ModulePatch] Updating server-side inertia settings.
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Painkiller queststatus set to Success
+[Info   :MoreCheckmarks] Quest Pharmacist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Supply Plans queststatus set to Started
+[Info   :MoreCheckmarks] Quest Kind of Sabotage queststatus set to Started
+[Info   :MoreCheckmarks] Quest General Wares queststatus set to Started
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Car Repair queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest What’s on the Flash Drive? queststatus set to Success
+[Info   :MoreCheckmarks] Quest Golden Swag queststatus set to Started
+[Info   :MoreCheckmarks] Quest BP Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Health Care Privacy - Part 1 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Farming - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Signal - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Only Business queststatus set to Success
+[Info   :MoreCheckmarks] Quest Make ULTRA Great Again queststatus set to Started
+[Info   :MoreCheckmarks] Quest Big Sale queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest The Tarkov Shooter - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Grenadier queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Survivalist Path - Unprotected but Dangerous queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shady Business queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest Disease History queststatus set to Started
+[Info   :MoreCheckmarks] Quest Seaside Vacation queststatus set to Started
+[Info   :MoreCheckmarks] Quest Audit queststatus set to Started
+[Info   :MoreCheckmarks] Quest Population Census queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Hustle queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Success
+[Info   :MoreCheckmarks] Quest RUAF Infiltrator - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x19 / .45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 4.6x30 / 5.7x28 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 12 Gauge queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Basics - 9x39 / .300BLK queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.45x39 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ammo Basics - 5.56x45 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 2 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 3 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 4 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 11 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 12 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 13 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 14 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 15 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 16 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 17 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 18 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 19 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Light Of The Lotus - Part 20 queststatus set to Locked
+[Info   :MoreCheckmarks] Quest PMC Training - Looter queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Infantry queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Close Quarter Combat queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Marksmanship queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - First Aid queststatus set to Success
+[Info   :MoreCheckmarks] Quest PMC Training - Sneaky Bastard queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuelist queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Carrier - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Home Depot queststatus set to Started
+[Info   :MoreCheckmarks] Quest Checkmate - Part 1 queststatus set to Success
+[Info   :MoreCheckmarks] Quest Checkmate - Part 2 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Ready For Battle queststatus set to Success
+[Info   :MoreCheckmarks] Quest Household Goods queststatus set to Success
+[Info   :MoreCheckmarks] Quest Ammo Gathering queststatus set to Success
+[Info   :MoreCheckmarks] Quest Fuel Delivery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Field Surgery queststatus set to Success
+[Info   :MoreCheckmarks] Quest Narcotic - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Alpinist queststatus set to Locked
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync

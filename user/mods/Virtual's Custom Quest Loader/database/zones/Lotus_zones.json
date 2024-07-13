@@ -1056,6 +1056,28 @@
     }
   },
   {
+    "ZoneId": "groundzero_miraave_extract",
+    "ZoneName": "groundzero_miraave_extract",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "214.0775",
+      "Y": "17.01762",
+      "Z": "48.86733"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "16",
+      "Y": "3",
+      "Z": "14"
+    }
+  },
+  {
     "ZoneId": "groundzero_miraave_extract_mark",
     "ZoneName": "groundzero_miraave_extract_mark",
     "ZoneLocation": "Sandbox",
@@ -1076,11 +1098,55 @@
       "Y": "3",
       "Z": "14"
     }
-  },  
+  },
+  {
+    "ZoneId": "groundzero_miraave_extract_mark",
+    "ZoneName": "groundzero_miraave_extract_mark",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "214.0775",
+      "Y": "17.01762",
+      "Z": "48.86733"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "16",
+      "Y": "3",
+      "Z": "14"
+    }
+  },
   {
     "ZoneId": "groundzero_miraave_mines",
     "ZoneName": "groundzero_miraave_mines",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "194.8725",
+      "Y": "17.16087",
+      "Z": "124.8378"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "35.5",
+      "Y": "3",
+      "Z": "4.5"
+    }
+  },
+  {
+    "ZoneId": "groundzero_miraave_mines",
+    "ZoneName": "groundzero_miraave_mines",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -1120,11 +1186,55 @@
       "Y": "3",
       "Z": "4.5"
     }
-  },  
+  }, 
+  {
+    "ZoneId": "groundzero_miraave_mines_mark",
+    "ZoneName": "groundzero_miraave_mines_mark",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "194.8725",
+      "Y": "17.16087",
+      "Z": "124.8378"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "35.5",
+      "Y": "3",
+      "Z": "4.5"
+    }
+  }, 
   {
     "ZoneId": "groundzero_emercom_extract",
     "ZoneName": "groundzero_emercom_extract",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "150.6799",
+      "Y": "23.51923",
+      "Z": "-92.85676"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "21.5",
+      "Y": "2.5",
+      "Z": "15.75"
+    }
+  },
+  {
+    "ZoneId": "groundzero_emercom_extract",
+    "ZoneName": "groundzero_emercom_extract",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -1166,9 +1276,53 @@
     }
   },  
   {
+    "ZoneId": "groundzero_emercom_extract_mark",
+    "ZoneName": "groundzero_emercom_extract_mark",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "150.6799",
+      "Y": "23.51923",
+      "Z": "-92.85676"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "21.5",
+      "Y": "2.5",
+      "Z": "15.75"
+    }
+  }, 
+  {
     "ZoneId": "groundzero_taxi_extract",
     "ZoneName": "groundzero_taxi_extract",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-6.376207",
+      "Y": "23.11596",
+      "Z": "112.2964"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "12.5",
+      "Y": "4.25",
+      "Z": "18.25"
+    }
+  },
+  {
+    "ZoneId": "groundzero_taxi_extract",
+    "ZoneName": "groundzero_taxi_extract",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -1208,11 +1362,55 @@
       "Y": "4.25",
       "Z": "18.25"
     }
-  },  
+  }, 
+  {
+    "ZoneId": "groundzero_taxi_extract_mark",
+    "ZoneName": "groundzero_taxi_extract_mark",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-6.376207",
+      "Y": "23.11596",
+      "Z": "112.2964"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "12.5",
+      "Y": "4.25",
+      "Z": "18.25"
+    }
+  }, 
   {
     "ZoneId": "groundzero_nakatani_snipers",
     "ZoneName": "groundzero_nakatani_snipers",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "2.81634",
+      "Y": "23.09708",
+      "Z": "293.1705"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "25",
+      "Y": "1",
+      "Z": "39.5"
+    }
+  },
+  {
+    "ZoneId": "groundzero_nakatani_snipers",
+    "ZoneName": "groundzero_nakatani_snipers",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -1252,7 +1450,29 @@
       "Y": "1",
       "Z": "39.5"
     }
-  },  
+  }, 
+  {
+    "ZoneId": "groundzero_nakatani_snipers_mark",
+    "ZoneName": "groundzero_nakatani_snipers_mark",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "2.81634",
+      "Y": "23.09708",
+      "Z": "293.1705"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "25",
+      "Y": "1",
+      "Z": "39.5"
+    }
+  },   
   {
     "ZoneId": "groundzero_terragroup_truck",
     "ZoneName": "groundzero_terragroup_truck",
@@ -1276,9 +1496,53 @@
     }
   },
   {
+    "ZoneId": "groundzero_terragroup_truck",
+    "ZoneName": "groundzero_terragroup_truck",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "124.5226",
+      "Y": "23.4188",
+      "Z": "65.69078"
+    },
+    "Rotation": {
+      "X": "-0.02433583",
+      "Y": "-0.3550835",
+      "Z": "-0.04651152"
+    },
+    "Scale": {
+      "X": "15",
+      "Y": "4",
+      "Z": "3.75"
+    }
+  },
+  {
     "ZoneId": "groundzero_terragroup_truck_mark",
     "ZoneName": "groundzero_terragroup_truck_mark",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "124.5226",
+      "Y": "23.4188",
+      "Z": "65.69078"
+    },
+    "Rotation": {
+      "X": "-0.02433583",
+      "Y": "-0.3550835",
+      "Z": "-0.04651152"
+    },
+    "Scale": {
+      "X": "15",
+      "Y": "4",
+      "Z": "3.75"
+    }
+  },
+  {
+    "ZoneId": "groundzero_terragroup_truck_mark",
+    "ZoneName": "groundzero_terragroup_truck_mark",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "placeitem",
     "FlareType": "",
     "Position": {
@@ -1776,9 +2040,9 @@
       "Z": "0"
     },
     "Scale": {
-      "X": "6.25",
+      "X": "5.25",
       "Y": "4.25",
-      "Z": "7"
+      "Z": "6"
     }
   },
   {
@@ -1798,9 +2062,9 @@
       "Z": "0"
     },
     "Scale": {
-      "X": "6.25",
+      "X": "5.25",
       "Y": "4.25",
-      "Z": "7"
+      "Z": "6"
     }
   },
   {
@@ -1820,9 +2084,9 @@
       "Z": "0"
     },
     "Scale": {
-      "X": "6",
+      "X": "5",
       "Y": "3.75",
-      "Z": "7.75"
+      "Z": "6.75"
     }
   },
   {
@@ -1842,9 +2106,9 @@
       "Z": "0"
     },
     "Scale": {
-      "X": "6",
+      "X": "5",
       "Y": "3.75",
-      "Z": "7.75"
+      "Z": "6.75"
     }
   },
   {
@@ -2904,9 +3168,53 @@
     }
   },
   {
+    "ZoneId": "lotus_groundzero_tigrcitycenter1",
+    "ZoneName": "lotus_groundzero_tigrcitycenter1",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "154.3195",
+      "Y": "19.09156",
+      "Z": "63.11969"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.3967474",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "7.5",
+      "Y": "2.75",
+      "Z": "3.75"
+    }
+  },
+  {
     "ZoneId": "lotus_groundzero_tigrcitycenter2",
     "ZoneName": "lotus_groundzero_tigrcitycenter2",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "104.8775",
+      "Y": "23.84335",
+      "Z": "68.32882"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1972296",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "8.75",
+      "Y": "2.25",
+      "Z": "4.5"
+    }
+  },
+  {
+    "ZoneId": "lotus_groundzero_tigrcitycenter2",
+    "ZoneName": "lotus_groundzero_tigrcitycenter2",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -2948,9 +3256,53 @@
     }
   },
   {
+    "ZoneId": "lotus_groundzero_tigrcitycenter3",
+    "ZoneName": "lotus_groundzero_tigrcitycenter3",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "95.48061",
+      "Y": "23.84851",
+      "Z": "62.15268"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.2881963",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6.5",
+      "Y": "2.5",
+      "Z": "5"
+    }
+  },
+  {
     "ZoneId": "lotus_groundzero_tigrnakatani",
     "ZoneName": "lotus_groundzero_tigrnakatani",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "21.5519",
+      "Y": "24.02151",
+      "Z": "314.1854"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.2376859",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4.25",
+      "Y": "3",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "lotus_groundzero_tigrnakatani",
+    "ZoneName": "lotus_groundzero_tigrnakatani",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "visit",
     "FlareType": "",
     "Position": {
@@ -2992,9 +3344,53 @@
     }
   },
   {
+    "ZoneId": "lotus_groundzero_fueltruck",
+    "ZoneName": "lotus_groundzero_fueltruck",
+    "ZoneLocation": "Sandbox_high",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "82.17554",
+      "Y": "16.21579",
+      "Z": "63.18946"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.25038",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4.5",
+      "Y": "4.75",
+      "Z": "11.75"
+    }
+  },
+  {
     "ZoneId": "lotus_groundzero_fueltruck_mark",
     "ZoneName": "lotus_groundzero_fueltruck_mark",
     "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "82.17554",
+      "Y": "16.21579",
+      "Z": "63.18946"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.25038",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4.5",
+      "Y": "4.75",
+      "Z": "11.75"
+    }
+  },
+  {
+    "ZoneId": "lotus_groundzero_fueltruck_mark",
+    "ZoneName": "lotus_groundzero_fueltruck_mark",
+    "ZoneLocation": "Sandbox_high",
     "ZoneType": "placeitem",
     "FlareType": "",
     "Position": {

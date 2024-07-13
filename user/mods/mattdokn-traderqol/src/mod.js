@@ -25,6 +25,7 @@ class TraderQoL {
             // Unknown and caretaker are excluded
             if (nickname === "caretaker" || nickname === "Unknown" || nickname === "БТР")
                 continue;
+            this.logger.info(`Trader ${nickname}`);
             this.updateTrader(trader);
         }
         if (this.modConfig.questReputationSettings.enabled) {
@@ -123,7 +124,7 @@ class TraderQoL {
                     trader.base.loyaltyLevels[loyaltyLevelId].minSalesSum *= exchangeRate;
                 }
                 // Set trader to use target currency
-                trader.base.currency = this.modConfig.targetCurrency;
+                trader.base.currency = this.modConfig.singleCurrencySettings.targetCurrency;
             }
             // Convert trader stock to target currency
             const targetCurrencyId = this.getCurrencyId(this.modConfig.singleCurrencySettings.targetCurrency);
@@ -180,6 +181,11 @@ class TraderQoL {
         if (trader.base.insurance.availability && this.modConfig.insuranceSettings.enabled && this.modConfig.insuranceSettings.insuranceCostMultiplier != 1.0) {
             for (const loyaltyLevelId in trader.base.loyaltyLevels) {
                 trader.base.loyaltyLevels[loyaltyLevelId].insurance_price_coef *= this.modConfig.insuranceSettings.insuranceCostMultiplier;
+            }
+        }
+        if (trader.base.repair.availability && this.modConfig.repairSettings.enabled && this.modConfig.repairSettings.repairCostMultiplier != 1.0) {
+            for (const loyaltyLevelId in trader.base.loyaltyLevels) {
+                trader.base.loyaltyLevels[loyaltyLevelId].repair_price_coef *= this.modConfig.repairSettings.repairCostMultiplier;
             }
         }
     }

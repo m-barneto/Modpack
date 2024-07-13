@@ -2882,7 +2882,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_ruafinfil_6 AFF_3_3",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               }
             ],
@@ -7478,7 +7479,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_4 AFF_0_0",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               },
               {
@@ -7520,7 +7522,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_4 AFF_1_0",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               },
               {
@@ -7562,7 +7565,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_4 AFF_2_0",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               },
               {
@@ -11234,7 +11238,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_14 AFF_2_1",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               }		  
             ],
@@ -11261,7 +11266,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_14 AFF_3_0",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               },
               {
@@ -11657,7 +11663,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_light_15 AFF_0_1",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               }		  
             ],
@@ -30673,7 +30680,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_fueldelivery AFF_2_1",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               }
             ],
@@ -30700,7 +30708,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_fueldelivery AFF_3_0",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               },
               {
@@ -39027,6 +39036,7 @@
                 "id": "Lotus_easternreliability_9_prapor AFF_0_1",
                 "target": [
                   "Sandbox",
+				  "Sandbox_high",
 				  "TarkovStreets"
                 ]
               }
@@ -39093,6 +39103,7 @@
                 "id": "Lotus_easternreliability_9_prapor AFF_1_1",
                 "target": [
                   "Sandbox",
+				  "Sandbox_high",
 				  "TarkovStreets"
                 ]
               }
@@ -41875,7 +41886,8 @@
                 "dynamicLocale": false,
                 "id": "Lotus_westconnection_3_peacekeeper AFF_5_1",
                 "target": [
-                  "Sandbox"
+                  "Sandbox",
+				  "Sandbox_high"
                 ]
               }		  
             ],

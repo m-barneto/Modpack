@@ -50,7 +50,7 @@ class AmmoStats implements IPostDBLoadMod {
                 const hasPenProp = "PenetrationPower" in item._props;
 
                 if (hasPenProp && hasDamageProp) {
-                    localeDatabase[itemName] = localeDatabase[itemName] + ` ${item._props.Damage}/${item._props.PenetrationPower}`;
+                    localeDatabase[itemName] = `${item._props.PenetrationPower}/${item._props.Damage}` + localeDatabase[itemName];
                 }
             }
         }

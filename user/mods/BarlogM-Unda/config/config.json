@@ -1,7 +1,0 @@
-{
-    "maxPmcGroupSize": 3,
-    "maxScavGroupSize": 5,
-    "pmcBotDifficulty": "normal",
-    "streetsQuietRaids": true,
-    "debug": false
-}

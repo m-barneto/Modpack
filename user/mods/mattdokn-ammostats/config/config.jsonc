@@ -1,2 +1,5 @@
 {
+    "ShowPenBeforeDmg": true,
+    "InfoBeforeName": true,
+    "InfoInParenthesis": true
 }

@@ -25,9 +25,9 @@
       },
       "LimitAIvsAIVision": true,
       "MaxVisionRanges": {
-        "Far": 150.0,
-        "VeryFar": 75.0,
-        "Narnia": 25.0
+        "Far": 200.0,
+        "VeryFar": 100.0,
+        "Narnia": 50.0
       },
       "LimitAIvsAIHearing": true,
       "MaxHearingRanges": {
@@ -93,12 +93,14 @@
       "DrawDoorLinks": false,
       "Overlay_Info": true,
       "Overlay_Info_Expanded": false,
-      "Overlay_Search": false,
-      "Overlay_EnemyLists": true,
+      "Overlay_Search": true,
+      "Overlay_EnemyLists": false,
       "Overlay_EnemyInfo": true,
-      "Overlay_EnemyInfo_Expanded": true,
+      "Overlay_EnemyInfo_Expanded": false,
       "Overlay_Decisions": false,
       "OverLay_AimInfo": false,
+      "OverLay_AlwaysShowClosestHumanInfo": false,
+      "OverLay_AlwaysShowMainPlayerInfo": false,
       "DebugRecoilCalculations": false,
       "DebugDrawRecoilGizmos": false,
       "DebugAimCalculations": false,
@@ -193,15 +195,103 @@
       "Default": 125.0
     }
   },
+  "Location": {
+    "Settings": {
+      "Factory": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "FactoryNight": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Customs": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "GroundZero": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Reserve": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Streets": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Lighthouse": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Shoreline": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Labs": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.2
+      },
+      "Woods": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      },
+      "Interchange": {
+        "VisionSpeedModifier": 1.0,
+        "ScatterMultiplier": 1.0,
+        "AggressionMultiplier": 1.0
+      }
+    }
+  },
   "Look": {
     "VisionSpeed": {
       "GlobalVisionSpeedModifier": 1.0,
-      "SprintingVisionModifier": 0.5,
       "Elevation": {
+        "Enabled": true,
         "HighElevationMaxAngle": 60.0,
         "HighElevationVisionModifier": 2.5,
         "LowElevationMaxAngle": 30.0,
         "LowElevationVisionModifier": 0.75
+      },
+      "Movement": {
+        "Description": "Scales vision speed based on the movement speed of their enemy. Faster movement = faster vision speed.",
+        "Enabled": true,
+        "MOVEMENT_VISION_MULTIPLIER": 0.5
+      },
+      "PartsVisibility": {
+        "Description": "Scales vision speed based on the number of body parts that are within line of sight to their enemy. Only applies to Non-AI targets.",
+        "Enabled": true,
+        "PARTS_VISIBLE_MAX_COEF": 2.0,
+        "PARTS_VISIBLE_MIN_COEF": 0.9
+      },
+      "Peripheral": {
+        "Description": "Adds additional vision speed reduction to targets in a bot's peripheral vision.Scales with the angle from their look direction.",
+        "Enabled": true,
+        "PERIPHERAL_VISION_START_ANGLE": 30.0,
+        "PERIPHERAL_VISION_MAX_REDUCTION_COEF": 2.0
+      },
+      "Pose": {
+        "Description": "Scales vision speed based on the pose of their enemy. Only applies to Non-AI targets.",
+        "Enabled": true,
+        "PRONE_VISION_SPEED_COEF": 1.5,
+        "DUCK_VISION_SPEED_COEF": 1.2
+      },
+      "ThirdParty": {
+        "Description": "When an enemy is a certain angle away from their active enemies last known position, this will reduce their vision speed of that target up to the maximum set amount.",
+        "Enabled": true,
+        "THIRDPARTY_VISION_START_ANGLE": 30.0,
+        "THIRDPARTY_VISION_MAX_COEF": 1.5
       }
     },
     "VisionDistance": {
@@ -248,7 +338,7 @@
       "Timmy": false,
       "Normal": false
     },
-    "GlobalAggression": 1.0,
+    "GlobalAggression": 1.1,
     "SneakyBots": true,
     "OnlySneakyPersonalitiesSneaky": false,
     "MaximumDistanceToBeSneaky": 80.0,

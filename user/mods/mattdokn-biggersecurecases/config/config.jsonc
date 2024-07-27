@@ -1,0 +1,44 @@
+{
+    "Containers": {
+        // Waist Pouch
+        "5732ee6a24597719ae0c0281": {
+            "width": 3,
+            "height": 2
+        },
+        // Alpha
+        "544a11ac4bdc2d470e8b456a": {
+            "width": 3,
+            "height": 2
+        },
+        // Beta
+        "5857a8b324597729ab0a0e7d": {
+            "width": 3,
+            "height": 3
+        },
+        // Epsilon
+        "59db794186f77448bc595262": {
+            "width": 4,
+            "height": 3
+        },
+        // Gamma
+        "5857a8bc2459772bad15db29": {
+            "width": 5,
+            "height": 3
+        },
+        // Gamma Unheard
+        "665ee77ccf2d642e98220bca": {
+            "width": 5,
+            "height": 3
+        },
+        // Theta
+        "664a55d84a90fc2c8a6305c9": {
+            "width": 4,
+            "height": 4
+        },
+        // Kappa
+        "5c093ca986f7740a1867ab12": {
+            "width": 5,
+            "height": 4
+        }
+    }
+}

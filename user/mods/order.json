@@ -1,3 +1,5 @@
 {
-    "order": ["BarlogM-Andern", "musicmaniac-musicmaniacbumarevamped", "Lotus", "mattdokn-traderqol"]
+    "order": [
+		"ServerValueModifier"
+	]
 }

@@ -24,9 +24,6 @@ let FikaUpdateStaticRouter = class FikaUpdateStaticRouter extends Router_1.Stati
             new Router_1.RouteAction("/fika/update/ping", async (url, info, sessionID, _output) => {
                 return this.fikaUpdateCallbacks.handlePing(url, info, sessionID);
             }),
-            new Router_1.RouteAction("/fika/update/spawnpoint", async (url, info, sessionID, _output) => {
-                return this.fikaUpdateCallbacks.handleSpawnpoint(url, info, sessionID);
-            }),
             new Router_1.RouteAction("/fika/update/playerspawn", async (url, info, sessionID, _output) => {
                 return this.fikaUpdateCallbacks.handlePlayerspawn(url, info, sessionID);
             }),
@@ -35,6 +32,9 @@ let FikaUpdateStaticRouter = class FikaUpdateStaticRouter extends Router_1.Stati
             }),
             new Router_1.RouteAction("/fika/update/setstatus", async (url, info, sessionID, _output) => {
                 return this.fikaUpdateCallbacks.handleSetStatus(url, info, sessionID);
+            }),
+            new Router_1.RouteAction("/fika/update/addplayer", async (url, info, sessionID, _output) => {
+                return this.fikaUpdateCallbacks.handleRaidAddPlayer(url, info, sessionID);
             }),
         ]);
         this.fikaUpdateCallbacks = fikaUpdateCallbacks;

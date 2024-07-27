@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a, _b, _c, _d;
+var _a, _b, _c, _d, _e;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FikaMatchService = void 0;
 const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
@@ -21,18 +21,21 @@ const SaveServer_1 = require("C:/snapshot/project/obj/servers/SaveServer");
 const FikaMatchEndSessionMessages_1 = require("../models/enums/FikaMatchEndSessionMessages");
 const FikaMatchStatus_1 = require("../models/enums/FikaMatchStatus");
 const FikaConfig_1 = require("../utils/FikaConfig");
+const FikaDedicatedRaidService_1 = require("./dedicated/FikaDedicatedRaidService");
 let FikaMatchService = class FikaMatchService {
     logger;
     locationController;
     saveServer;
     fikaConfig;
+    fikaDedicatedRaidService;
     matches;
     timeoutIntervals;
-    constructor(logger, locationController, saveServer, fikaConfig) {
+    constructor(logger, locationController, saveServer, fikaConfig, fikaDedicatedRaidService) {
         this.logger = logger;
         this.locationController = locationController;
         this.saveServer = saveServer;
         this.fikaConfig = fikaConfig;
+        this.fikaDedicatedRaidService = fikaDedicatedRaidService;
         this.matches = new Map();
         this.timeoutIntervals = new Map();
     }
@@ -175,7 +178,6 @@ let FikaMatchService = class FikaMatchService {
             raidConfig: data.settings,
             locationData: locationData,
             status: FikaMatchStatus_1.FikaMatchStatus.LOADING,
-            spawnPoint: null,
             timeout: 0,
             players: new Map(),
             gameVersion: data.gameVersion,
@@ -183,7 +185,8 @@ let FikaMatchService = class FikaMatchService {
             side: data.side,
             time: data.time,
             raidCode: data.raidCode,
-            natPunch: false
+            natPunch: false,
+            isDedicated: false
         });
         this.addTimeoutInterval(data.serverId);
         this.addPlayerToMatch(data.serverId, data.serverId, { groupId: null, isDead: false });
@@ -207,6 +210,9 @@ let FikaMatchService = class FikaMatchService {
      */
     endMatch(matchId, reason) {
         this.logger.info(`Coop session ${matchId} has ended: ${reason}`);
+        if (this.fikaDedicatedRaidService.requestedSessions.hasOwnProperty(matchId)) {
+            delete this.fikaDedicatedRaidService.requestedSessions[matchId];
+        }
         this.deleteMatch(matchId);
     }
     /**
@@ -219,17 +225,9 @@ let FikaMatchService = class FikaMatchService {
             return;
         }
         this.matches.get(matchId).status = status;
-    }
-    /**
-     * Sets the spawn point of the given match
-     * @param matchId
-     * @param spawnPoint
-     */
-    setMatchSpawnPoint(matchId, spawnPoint) {
-        if (!this.matches.has(matchId)) {
-            return;
+        if (status.toString() == "COMPLETE") {
+            this.fikaDedicatedRaidService.handleRequestedSessions(matchId);
         }
-        this.matches.get(matchId).spawnPoint = spawnPoint;
     }
     /**
      * Sets the ip and port for the given match
@@ -237,7 +235,7 @@ let FikaMatchService = class FikaMatchService {
      * @param ips
      * @param port
      */
-    setMatchHost(matchId, ips, port, natPunch) {
+    setMatchHost(matchId, ips, port, natPunch, isDedicated) {
         if (!this.matches.has(matchId)) {
             return;
         }
@@ -245,6 +243,7 @@ let FikaMatchService = class FikaMatchService {
         match.ips = ips;
         match.port = port;
         match.natPunch = natPunch;
+        match.isDedicated = isDedicated;
     }
     /**
      * Resets the timeout of the given match
@@ -302,6 +301,7 @@ exports.FikaMatchService = FikaMatchService = __decorate([
     __param(1, (0, tsyringe_1.inject)("LocationController")),
     __param(2, (0, tsyringe_1.inject)("SaveServer")),
     __param(3, (0, tsyringe_1.inject)("FikaConfig")),
-    __metadata("design:paramtypes", [typeof (_a = typeof ILogger_1.ILogger !== "undefined" && ILogger_1.ILogger) === "function" ? _a : Object, typeof (_b = typeof LocationController_1.LocationController !== "undefined" && LocationController_1.LocationController) === "function" ? _b : Object, typeof (_c = typeof SaveServer_1.SaveServer !== "undefined" && SaveServer_1.SaveServer) === "function" ? _c : Object, typeof (_d = typeof FikaConfig_1.FikaConfig !== "undefined" && FikaConfig_1.FikaConfig) === "function" ? _d : Object])
+    __param(4, (0, tsyringe_1.inject)("FikaDedicatedRaidService")),
+    __metadata("design:paramtypes", [typeof (_a = typeof ILogger_1.ILogger !== "undefined" && ILogger_1.ILogger) === "function" ? _a : Object, typeof (_b = typeof LocationController_1.LocationController !== "undefined" && LocationController_1.LocationController) === "function" ? _b : Object, typeof (_c = typeof SaveServer_1.SaveServer !== "undefined" && SaveServer_1.SaveServer) === "function" ? _c : Object, typeof (_d = typeof FikaConfig_1.FikaConfig !== "undefined" && FikaConfig_1.FikaConfig) === "function" ? _d : Object, typeof (_e = typeof FikaDedicatedRaidService_1.FikaDedicatedRaidService !== "undefined" && FikaDedicatedRaidService_1.FikaDedicatedRaidService) === "function" ? _e : Object])
 ], FikaMatchService);
 //# sourceMappingURL=FikaMatchService.js.map

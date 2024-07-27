@@ -1,0 +1,205 @@
+{
+  "manifest": [
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+      "dependencyKeys": [
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_gloss_nrm"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_gloss_nrm"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_anti.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime3.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime3v2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anti2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_ramrem.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime3.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime3v2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anti.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anti2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_ramrem.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime3.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime3v2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anti.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anti2.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_ramrem.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle",
+        "assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    }
+  ]
+}

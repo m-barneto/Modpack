@@ -1,0 +1,550 @@
+[2024-07-27T22:00:01.922Z] debug: 	Importing configs...
+[2024-07-27T22:00:02.012Z] info: 	Commit hash: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:00:02.013Z] info: 	Build date: 1722019157568
+[2024-07-27T22:00:02.094Z] info: 	ModLoader: loading: 27 server mods...
+[2024-07-27T22:00:02.094Z] info: 	ModLoader: order.json is missing, creating...
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod bakahashi-pityloot is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod cj-removetimegatefromquests is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod DanW-SPTQuestingBots is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod FIWM-ZeroToHero is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod IhanaMies-LootValueBackend is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod Jehree-GildedKeyStorage is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod Lotus is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod mattdokn-ammostats is missing from order.json, adding
+[2024-07-27T22:00:02.124Z] debug: 	ModLoader: Mod mattdokn-biggersecurecases is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod mattdokn-fpsunlocker is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod mattdokn-insuranceplus is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod mattdokn-penaltiesremoved is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod mattdokn-perfectrepair is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod mattdokn-traderqol is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod MoreCheckmarksBackend is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod MusicManiac-LessRestrictingHeadwear is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod musicmaniac-musicmaniacbumarevamped is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod NoNeedName-BoostedMeds 1.2.1 Port is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod refringe-openextracts is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod Skwizzy-LootingBots-ServerMod is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod SWAG is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod tyfon-uifixes is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod Virtual's Custom Quest Loader is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod zSamSWAT-WeebSights is missing from order.json, adding
+[2024-07-27T22:00:02.125Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod is missing from order.json, adding
+[2024-07-27T22:00:02.132Z] debug: 	Mod acidphantasm-refsptfriendlyquests hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.145Z] info: 	Mod: RefSPTFriendlyQuests version: 1.1.0 by: acidphantasm loaded
+[2024-07-27T22:00:02.173Z] debug: 	Mod bakahashi-pityloot hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.272Z] info: 	Mod: PityLoot version: 0.6.2 by: Bakahashi loaded
+[2024-07-27T22:00:02.279Z] debug: 	Mod cj-removetimegatefromquests hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.284Z] info: 	Mod: RemoveTimeGateFromQuests version: 1.0.2 by: Cj loaded
+[2024-07-27T22:00:02.299Z] debug: 	Mod DanW-SPTQuestingBots hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.353Z] info: 	Mod: SPTQuestingBots version: 0.7.0 by: DanW loaded
+[2024-07-27T22:00:02.640Z] debug: 	Mod fika-server hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.928Z] info: 	Mod: server version: 2.2.4 by: Fika loaded
+[2024-07-27T22:00:02.935Z] debug: 	Mod FIWM-ZeroToHero hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.939Z] info: 	Mod: FiwmZeroToHero version: 3.5.0 by: FIWM loaded
+[2024-07-27T22:00:02.947Z] debug: 	Mod IhanaMies-LootValueBackend hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.953Z] info: 	Mod: LootValueBackend version: 3.0.0 by: IhanaMies loaded
+[2024-07-27T22:00:02.966Z] debug: 	Mod Jehree-GildedKeyStorage hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:02.997Z] info: 	Mod: Gilded Key Storage version: 1.4.0 by: Jehree loaded
+[2024-07-27T22:00:03.023Z] debug: 	Mod Lotus hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.061Z] info: 	Mod: Lotus version: 1.3.2 by: Lunnayaluna loaded
+[2024-07-27T22:00:03.068Z] debug: 	Mod mattdokn-ammostats hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.075Z] info: 	Mod: ammostats version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:00:03.082Z] debug: 	Mod mattdokn-biggersecurecases hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.086Z] info: 	Mod: biggersecurecases version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:00:03.093Z] debug: 	Mod mattdokn-fpsunlocker hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.096Z] info: 	Mod: fpsunlocker version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:00:03.108Z] debug: 	Mod mattdokn-insuranceplus hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.134Z] info: 	Mod: insuranceplus version: 1.2.2 by: Mattdokn loaded
+[2024-07-27T22:00:03.142Z] debug: 	Mod mattdokn-penaltiesremoved hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.147Z] info: 	Mod: penaltiesremoved version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:00:03.159Z] debug: 	Mod mattdokn-perfectrepair hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.170Z] info: 	Mod: perfectrepair version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:00:03.178Z] debug: 	Mod mattdokn-traderqol hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.187Z] info: 	Mod: traderqol version: 1.0.2 by: Mattdokn loaded
+[2024-07-27T22:00:03.195Z] debug: 	Mod MoreCheckmarksBackend hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.203Z] info: 	Mod: MoreCheckmarksBackend version: 1.5.14 by: VIP loaded
+[2024-07-27T22:00:03.210Z] debug: 	Mod MusicManiac-LessRestrictingHeadwear hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.220Z] info: 	Mod: MusicManiac-LessRestrictingHeadwear version: 2.1.0 by: MusicManiac loaded
+[2024-07-27T22:00:03.229Z] debug: 	Mod musicmaniac-musicmaniacbumarevamped hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.234Z] info: 	Mod: MusicManiac-BUMA-Revamped version: 1.2.0 by: MusicManiac loaded
+[2024-07-27T22:00:03.246Z] debug: 	Mod NoNeedName-BoostedMeds 1.2.1 Port hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.260Z] info: 	Mod: BoostedMeds version: 1.2.1 by: NoNeedName + Ported By IceM4gic loaded
+[2024-07-27T22:00:03.284Z] debug: 	Mod refringe-openextracts hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.308Z] info: 	Mod: open-extracts version: 1.5.0 by: Refringe loaded
+[2024-07-27T22:00:03.319Z] debug: 	Mod Skwizzy-LootingBots-ServerMod hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.327Z] info: 	Mod: LootingBots-ServerMod version: 1.3.5 by: Skwizzy loaded
+[2024-07-27T22:00:03.340Z] debug: 	Mod SWAG hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.378Z] info: 	Mod: SWAG + DONUTS version: 3.5.1 by: nooky and props loaded
+[2024-07-27T22:00:03.390Z] debug: 	Mod tyfon-uifixes hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.404Z] info: 	Mod: uifixes version: 2.3.4 by: Tyfon loaded
+[2024-07-27T22:00:03.413Z] debug: 	Mod Virtual's Custom Quest Loader hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.430Z] info: 	Mod: Virtuals Custom Quest Loader version: 2.0.2 by: Virtual loaded
+[2024-07-27T22:00:03.430Z] info: 	Mod: Weeb Sights version: 1.0.0 by: SamSWAT loaded
+[2024-07-27T22:00:03.438Z] debug: 	Mod zSolarint-SAIN-ServerMod hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:03.442Z] info: 	Mod: SAIN version: 3.0.5 by: Solarint loaded
+[2024-07-27T22:00:04.122Z] info: 	Server: executing startup callbacks...
+[2024-07-27T22:00:04.122Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-07-27T22:00:04.123Z] debug: 	CPU: AMD Ryzen 9 7900X3D 12-Core Processor           cores: 24
+[2024-07-27T22:00:04.123Z] debug: 	RAM: 31.71GB
+[2024-07-27T22:00:04.123Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:00:04.123Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:00:04.123Z] debug: 	Server: 3.9.4
+[2024-07-27T22:00:04.123Z] debug: 	Date: 1722019157568
+[2024-07-27T22:00:04.123Z] debug: 	Commit: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:00:04.129Z] info: 	Importing database...
+[2024-07-27T22:00:24.494Z] info: 	Database import finished
+[2024-07-27T22:00:24.516Z] info: 	[Questing Bots] Applying debug options...
+[2024-07-27T22:00:24.542Z] debug: 	Item 661cb36922c9e10dc2d9514b not found in item base cache, regenerating cache
+[2024-07-27T22:00:24.618Z] info: 	[FpsUnlocker] Applied framerate settings.
+[2024-07-27T22:00:24.636Z] info: 	[LessRestrictingHeadwear] MusicManiac - Less Restricting Headwear Loaded
+[2024-07-27T22:00:24.637Z] info: 	[BUMA-Revamped] Loading
+[2024-07-27T22:00:24.638Z] info: 	[BUMA-Revamped] Finished Loading
+[2024-07-27T22:00:24.639Z] info: 	[LootingBots-ServerMod] Marking items with DiscardLimits as InsuranceDisabled
+[2024-07-27T22:00:24.640Z] info: 	[LootingBots-ServerMod] Global config DiscardLimitsEnabled set to false
+[2024-07-27T22:00:24.659Z] succ: 	[VCQL] Loaded 143 custom quests.
+[2024-07-27T22:00:24.659Z] succ: 	[VCQL] 0 custom quests were pruned due to date settings.
+[2024-07-27T22:00:24.678Z] succ: 	[VCQL] Loaded 124 custom quest images.
+[2024-07-27T22:00:24.678Z] succ: 	[VCQL] Loaded 0 custom trader images.
+[2024-07-27T22:00:24.695Z] debug: 	Bundle user/mods/Jehree-GildedKeyStorage/bundles/CaseBundles/Golden_Keychain1.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.703Z] debug: 	Bundle user/mods/Jehree-GildedKeyStorage/bundles/CaseBundles/Golden_Keychain2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.710Z] debug: 	Bundle user/mods/Jehree-GildedKeyStorage/bundles/CaseBundles/Golden_Keychain3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.734Z] debug: 	Bundle user/mods/Jehree-GildedKeyStorage/bundles/CaseBundles/Golden_Keycard_Case.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.755Z] debug: 	Bundle user/mods/Jehree-GildedKeyStorage/bundles/CaseBundles/Golden_Key_Pouch.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.778Z] debug: 	Bundle user/mods/Lotus/bundles/assets/content/items/item_keycard_labs_spec.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.785Z] debug: 	Bundle user/mods/Lotus/bundles/assets/content/items/item_keycard_lab_mesh hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.841Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_weebshit_textures.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.848Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_std.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.854Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_std.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.857Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_std.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.860Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_anti.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.863Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.866Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.869Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.873Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anime3v2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.875Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_anti2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.879Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_ramrem.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.882Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.884Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.887Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.891Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anime3v2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.893Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anti.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.896Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_anti2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.900Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_magpul_mbus_gen2_fde_ramrem.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.902Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.904Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.908Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime3.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.911Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anime3v2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.914Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anti.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.917Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_anti2.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.920Z] debug: 	Bundle user/mods/zSamSWAT-WeebSights/bundles/assets/content/items/mods/sights rear/sight_rear_all_sig_flip_up_ramrem.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:00:24.927Z] debug: 	0 Profiles took: 0.00ms to load.
+[2024-07-27T22:00:25.022Z] debug: 	Item sight_rear_all_magpul_mbus_anti not found in item base cache, regenerating cache
+[2024-07-27T22:00:27.405Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...
+[2024-07-27T22:00:27.405Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...done. Removed entries: 144
+[2024-07-27T22:00:27.405Z] warn: 	[Questing Bots] SWAG Detected. Disabling bot spawning.
+[2024-07-27T22:00:27.409Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-07-27T22:00:27.409Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-07-27T22:00:27.409Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-07-27T22:00:32.434Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-07-27T22:00:59.921Z] debug: 	Importing configs...
+[2024-07-27T22:00:59.945Z] info: 	Commit hash: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:00:59.945Z] info: 	Build date: 1722019157568
+[2024-07-27T22:00:59.961Z] info: 	ModLoader: loading: 28 server mods...
+[2024-07-27T22:00:59.973Z] debug: 	ModLoader: Mod bakahashi-pityloot is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod BRNVG_N-15Adapter is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod cj-removetimegatefromquests is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod DanW-SPTQuestingBots is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod FIWM-ZeroToHero is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod IhanaMies-LootValueBackend is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod Jehree-GildedKeyStorage is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod Lotus is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-ammostats is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-biggersecurecases is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-fpsunlocker is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-insuranceplus is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-penaltiesremoved is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-perfectrepair is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod mattdokn-traderqol is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod MoreCheckmarksBackend is missing from order.json, adding
+[2024-07-27T22:00:59.974Z] debug: 	ModLoader: Mod MusicManiac-LessRestrictingHeadwear is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod musicmaniac-musicmaniacbumarevamped is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod NoNeedName-BoostedMeds 1.2.1 Port is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod refringe-openextracts is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod Skwizzy-LootingBots-ServerMod is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod SWAG is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod tyfon-uifixes is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod Virtual's Custom Quest Loader is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod zSamSWAT-WeebSights is missing from order.json, adding
+[2024-07-27T22:00:59.975Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod is missing from order.json, adding
+[2024-07-27T22:00:59.977Z] info: 	Mod: RefSPTFriendlyQuests version: 1.1.0 by: acidphantasm loaded
+[2024-07-27T22:00:59.978Z] info: 	Mod: PityLoot version: 0.6.2 by: Bakahashi loaded
+[2024-07-27T22:00:59.986Z] debug: 	Mod BRNVG_N-15Adapter hash stored in ./user/cache/modCache.json
+[2024-07-27T22:00:59.996Z] info: 	Mod: BRNVG - N-15 Adapter version: 1.0.1 by: Borkel loaded
+[2024-07-27T22:00:59.996Z] info: 	Mod: RemoveTimeGateFromQuests version: 1.0.2 by: Cj loaded
+[2024-07-27T22:00:59.997Z] info: 	Mod: SPTQuestingBots version: 0.7.0 by: DanW loaded
+[2024-07-27T22:01:00.008Z] info: 	Mod: server version: 2.2.4 by: Fika loaded
+[2024-07-27T22:01:00.009Z] info: 	Mod: FiwmZeroToHero version: 3.5.0 by: FIWM loaded
+[2024-07-27T22:01:00.009Z] info: 	Mod: LootValueBackend version: 3.0.0 by: IhanaMies loaded
+[2024-07-27T22:01:00.010Z] info: 	Mod: Gilded Key Storage version: 1.4.0 by: Jehree loaded
+[2024-07-27T22:01:00.011Z] info: 	Mod: Lotus version: 1.3.2 by: Lunnayaluna loaded
+[2024-07-27T22:01:00.011Z] info: 	Mod: ammostats version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:01:00.012Z] info: 	Mod: biggersecurecases version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:01:00.012Z] info: 	Mod: fpsunlocker version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:01:00.014Z] info: 	Mod: insuranceplus version: 1.2.2 by: Mattdokn loaded
+[2024-07-27T22:01:00.014Z] info: 	Mod: penaltiesremoved version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:01:00.015Z] info: 	Mod: perfectrepair version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:01:00.015Z] info: 	Mod: traderqol version: 1.0.2 by: Mattdokn loaded
+[2024-07-27T22:01:00.015Z] info: 	Mod: MoreCheckmarksBackend version: 1.5.14 by: VIP loaded
+[2024-07-27T22:01:00.016Z] info: 	Mod: MusicManiac-LessRestrictingHeadwear version: 2.1.0 by: MusicManiac loaded
+[2024-07-27T22:01:00.016Z] info: 	Mod: MusicManiac-BUMA-Revamped version: 1.2.0 by: MusicManiac loaded
+[2024-07-27T22:01:00.017Z] info: 	Mod: BoostedMeds version: 1.2.1 by: NoNeedName + Ported By IceM4gic loaded
+[2024-07-27T22:01:00.018Z] info: 	Mod: open-extracts version: 1.5.0 by: Refringe loaded
+[2024-07-27T22:01:00.018Z] info: 	Mod: LootingBots-ServerMod version: 1.3.5 by: Skwizzy loaded
+[2024-07-27T22:01:00.019Z] info: 	Mod: SWAG + DONUTS version: 3.5.1 by: nooky and props loaded
+[2024-07-27T22:01:00.019Z] info: 	Mod: uifixes version: 2.3.4 by: Tyfon loaded
+[2024-07-27T22:01:00.020Z] info: 	Mod: Virtuals Custom Quest Loader version: 2.0.2 by: Virtual loaded
+[2024-07-27T22:01:00.020Z] info: 	Mod: Weeb Sights version: 1.0.0 by: SamSWAT loaded
+[2024-07-27T22:01:00.020Z] info: 	Mod: SAIN version: 3.0.5 by: Solarint loaded
+[2024-07-27T22:01:00.173Z] info: 	Server: executing startup callbacks...
+[2024-07-27T22:01:00.173Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-07-27T22:01:00.174Z] debug: 	CPU: AMD Ryzen 9 7900X3D 12-Core Processor           cores: 24
+[2024-07-27T22:01:00.174Z] debug: 	RAM: 31.71GB
+[2024-07-27T22:01:00.174Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:01:00.174Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:01:00.174Z] debug: 	Server: 3.9.4
+[2024-07-27T22:01:00.174Z] debug: 	Date: 1722019157568
+[2024-07-27T22:01:00.174Z] debug: 	Commit: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:01:00.175Z] info: 	Importing database...
+[2024-07-27T22:01:02.552Z] info: 	Database import finished
+[2024-07-27T22:01:02.570Z] info: 	[SBNV]: Your N-15s can also be mounted on helmets now!
+[2024-07-27T22:01:02.577Z] info: 	[Questing Bots] Applying debug options...
+[2024-07-27T22:01:02.596Z] debug: 	Item 661cb36922c9e10dc2d9514b not found in item base cache, regenerating cache
+[2024-07-27T22:01:02.664Z] info: 	[FpsUnlocker] Applied framerate settings.
+[2024-07-27T22:01:02.679Z] info: 	[LessRestrictingHeadwear] MusicManiac - Less Restricting Headwear Loaded
+[2024-07-27T22:01:02.679Z] info: 	[BUMA-Revamped] Loading
+[2024-07-27T22:01:02.680Z] info: 	[BUMA-Revamped] Finished Loading
+[2024-07-27T22:01:02.681Z] info: 	[LootingBots-ServerMod] Marking items with DiscardLimits as InsuranceDisabled
+[2024-07-27T22:01:02.682Z] info: 	[LootingBots-ServerMod] Global config DiscardLimitsEnabled set to false
+[2024-07-27T22:01:02.689Z] succ: 	[VCQL] Loaded 143 custom quests.
+[2024-07-27T22:01:02.689Z] succ: 	[VCQL] 0 custom quests were pruned due to date settings.
+[2024-07-27T22:01:02.697Z] succ: 	[VCQL] Loaded 124 custom quest images.
+[2024-07-27T22:01:02.697Z] succ: 	[VCQL] Loaded 0 custom trader images.
+[2024-07-27T22:01:02.722Z] debug: 	Bundle user/mods/BRNVG_N-15Adapter/bundles/assets/content/items/equipment/customizable/gpnvg/nvg_l3_gpnvg-18_anvis.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:01:02.742Z] debug: 	Bundle user/mods/BRNVG_N-15Adapter/bundles/assets/content/items/equipment/nvg_pvs14/pvs14_textures.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:01:02.745Z] debug: 	Bundle user/mods/BRNVG_N-15Adapter/bundles/assets/content/items/equipment/customizable/pvs_14/nvg_pvs_14.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:01:02.778Z] debug: 	Bundle user/mods/BRNVG_N-15Adapter/bundles/assets/content/items/equipment/customizable/nvg_armasight_n-15/nvg_armasight_n-15.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:01:02.802Z] debug: 	Bundle user/mods/BRNVG_N-15Adapter/bundles/assets/content/items/equipment/customizable/nvg_alfa_pnv-10t/nvg_alfa_pnv-10t.bundle hash stored in ./user/cache/bundleHashCache.json
+[2024-07-27T22:01:02.866Z] debug: 	0 Profiles took: 0.00ms to load.
+[2024-07-27T22:01:02.950Z] debug: 	Item sight_rear_all_magpul_mbus_anti not found in item base cache, regenerating cache
+[2024-07-27T22:01:05.277Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...
+[2024-07-27T22:01:05.277Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...done. Removed entries: 144
+[2024-07-27T22:01:05.277Z] warn: 	[Questing Bots] SWAG Detected. Disabling bot spawning.
+[2024-07-27T22:01:05.282Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-07-27T22:01:05.282Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-07-27T22:01:05.282Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-07-27T22:01:05.650Z] info: 	[Client Request] /launcher/server/connect
+[2024-07-27T22:01:05.660Z] info: 	[Client Request] /launcher/ping
+[2024-07-27T22:01:05.662Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:01:05.666Z] info: 	[Client Request] /files/launcher/bg.png
+[2024-07-27T22:01:05.675Z] info: 	[Client Request] /launcher/ping
+[2024-07-27T22:01:05.880Z] info: 	[Client Request] /launcher/profiles
+[2024-07-27T22:01:10.299Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-07-27T22:07:24.034Z] debug: 	Importing configs...
+[2024-07-27T22:07:24.058Z] info: 	Commit hash: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:07:24.059Z] info: 	Build date: 1722019157568
+[2024-07-27T22:07:24.075Z] info: 	ModLoader: loading: 29 server mods...
+[2024-07-27T22:07:24.089Z] debug: 	ModLoader: Mod bakahashi-pityloot is missing from order.json, adding
+[2024-07-27T22:07:24.089Z] debug: 	ModLoader: Mod BRNVG_N-15Adapter is missing from order.json, adding
+[2024-07-27T22:07:24.089Z] debug: 	ModLoader: Mod cj-removetimegatefromquests is missing from order.json, adding
+[2024-07-27T22:07:24.089Z] debug: 	ModLoader: Mod DanW-SPTQuestingBots is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod FIWM-ZeroToHero is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod IhanaMies-LootValueBackend is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod Jehree-GildedKeyStorage is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod Lotus is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-ammostats is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-biggersecurecases is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-fpsunlocker is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-insuranceplus is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-penaltiesremoved is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-perfectrepair is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod mattdokn-traderqol is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod MoreCheckmarksBackend is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod MusicManiac-LessRestrictingHeadwear is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod musicmaniac-musicmaniacbumarevamped is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod NoNeedName-BoostedMeds 1.2.1 Port is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod refringe-openextracts is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod acidphantasm-refsptfriendlyquests is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod Skwizzy-LootingBots-ServerMod is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod SWAG is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod tyfon-uifixes is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod Virtual's Custom Quest Loader is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod zSamSWAT-WeebSights is missing from order.json, adding
+[2024-07-27T22:07:24.090Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod is missing from order.json, adding
+[2024-07-27T22:07:24.091Z] info: 	Mod: SVM version: 1.9.1 by: GhostFenixx loaded
+[2024-07-27T22:07:24.092Z] info: 	Mod: RefSPTFriendlyQuests version: 1.1.0 by: acidphantasm loaded
+[2024-07-27T22:07:24.093Z] info: 	Mod: PityLoot version: 0.6.2 by: Bakahashi loaded
+[2024-07-27T22:07:24.094Z] info: 	Mod: BRNVG - N-15 Adapter version: 1.0.1 by: Borkel loaded
+[2024-07-27T22:07:24.094Z] info: 	Mod: RemoveTimeGateFromQuests version: 1.0.2 by: Cj loaded
+[2024-07-27T22:07:24.095Z] info: 	Mod: SPTQuestingBots version: 0.7.0 by: DanW loaded
+[2024-07-27T22:07:24.106Z] info: 	Mod: server version: 2.2.4 by: Fika loaded
+[2024-07-27T22:07:24.107Z] info: 	Mod: FiwmZeroToHero version: 3.5.0 by: FIWM loaded
+[2024-07-27T22:07:24.107Z] info: 	Mod: LootValueBackend version: 3.0.0 by: IhanaMies loaded
+[2024-07-27T22:07:24.108Z] info: 	Mod: Gilded Key Storage version: 1.4.0 by: Jehree loaded
+[2024-07-27T22:07:24.109Z] info: 	Mod: Lotus version: 1.3.2 by: Lunnayaluna loaded
+[2024-07-27T22:07:24.109Z] info: 	Mod: ammostats version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:07:24.110Z] info: 	Mod: biggersecurecases version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:07:24.110Z] info: 	Mod: fpsunlocker version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:07:24.110Z] info: 	Mod: insuranceplus version: 1.2.2 by: Mattdokn loaded
+[2024-07-27T22:07:24.111Z] info: 	Mod: penaltiesremoved version: 1.1.0 by: Mattdokn loaded
+[2024-07-27T22:07:24.111Z] info: 	Mod: perfectrepair version: 1.0.0 by: Mattdokn loaded
+[2024-07-27T22:07:24.112Z] info: 	Mod: traderqol version: 1.0.2 by: Mattdokn loaded
+[2024-07-27T22:07:24.112Z] info: 	Mod: MoreCheckmarksBackend version: 1.5.14 by: VIP loaded
+[2024-07-27T22:07:24.112Z] info: 	Mod: MusicManiac-LessRestrictingHeadwear version: 2.1.0 by: MusicManiac loaded
+[2024-07-27T22:07:24.113Z] info: 	Mod: MusicManiac-BUMA-Revamped version: 1.2.0 by: MusicManiac loaded
+[2024-07-27T22:07:24.113Z] info: 	Mod: BoostedMeds version: 1.2.1 by: NoNeedName + Ported By IceM4gic loaded
+[2024-07-27T22:07:24.114Z] info: 	Mod: open-extracts version: 1.5.0 by: Refringe loaded
+[2024-07-27T22:07:24.115Z] info: 	Mod: LootingBots-ServerMod version: 1.3.5 by: Skwizzy loaded
+[2024-07-27T22:07:24.115Z] info: 	Mod: SWAG + DONUTS version: 3.5.1 by: nooky and props loaded
+[2024-07-27T22:07:24.116Z] info: 	Mod: uifixes version: 2.3.4 by: Tyfon loaded
+[2024-07-27T22:07:24.116Z] info: 	Mod: Virtuals Custom Quest Loader version: 2.0.2 by: Virtual loaded
+[2024-07-27T22:07:24.116Z] info: 	Mod: Weeb Sights version: 1.0.0 by: SamSWAT loaded
+[2024-07-27T22:07:24.116Z] info: 	Mod: SAIN version: 3.0.5 by: Solarint loaded
+[2024-07-27T22:07:24.276Z] info: 	Server: executing startup callbacks...
+[2024-07-27T22:07:24.276Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-07-27T22:07:24.277Z] debug: 	CPU: AMD Ryzen 9 7900X3D 12-Core Processor           cores: 24
+[2024-07-27T22:07:24.277Z] debug: 	RAM: 31.71GB
+[2024-07-27T22:07:24.277Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:07:24.277Z] debug: 	PATH: QzpcR2FtZXNcU1BUIDMuOS40IC0gRmlrYVxTUFQuU2VydmVyLmV4ZQ==
+[2024-07-27T22:07:24.277Z] debug: 	Server: 3.9.4
+[2024-07-27T22:07:24.277Z] debug: 	Date: 1722019157568
+[2024-07-27T22:07:24.277Z] debug: 	Commit: 45e559efff0a6b5233df4e33b65c34850b425e85
+[2024-07-27T22:07:24.278Z] info: 	Importing database...
+[2024-07-27T22:07:26.728Z] info: 	Database import finished
+[2024-07-27T22:07:26.768Z] info: 	[SBNV]: Your N-15s can also be mounted on helmets now!
+[2024-07-27T22:07:26.771Z] info: 	[Questing Bots] Applying debug options...
+[2024-07-27T22:07:26.792Z] debug: 	Item 661cb36922c9e10dc2d9514b not found in item base cache, regenerating cache
+[2024-07-27T22:07:26.859Z] info: 	[FpsUnlocker] Applied framerate settings.
+[2024-07-27T22:07:26.869Z] info: 	[LessRestrictingHeadwear] MusicManiac - Less Restricting Headwear Loaded
+[2024-07-27T22:07:26.869Z] info: 	[BUMA-Revamped] Loading
+[2024-07-27T22:07:26.869Z] info: 	[BUMA-Revamped] Finished Loading
+[2024-07-27T22:07:26.870Z] info: 	[LootingBots-ServerMod] Marking items with DiscardLimits as InsuranceDisabled
+[2024-07-27T22:07:26.871Z] info: 	[LootingBots-ServerMod] Global config DiscardLimitsEnabled set to false
+[2024-07-27T22:07:26.878Z] succ: 	[VCQL] Loaded 143 custom quests.
+[2024-07-27T22:07:26.878Z] succ: 	[VCQL] 0 custom quests were pruned due to date settings.
+[2024-07-27T22:07:26.885Z] succ: 	[VCQL] Loaded 124 custom quest images.
+[2024-07-27T22:07:26.885Z] succ: 	[VCQL] Loaded 0 custom trader images.
+[2024-07-27T22:07:27.001Z] debug: 	0 Profiles took: 0.00ms to load.
+[2024-07-27T22:07:27.087Z] debug: 	Item sight_rear_all_magpul_mbus_anti not found in item base cache, regenerating cache
+[2024-07-27T22:07:29.403Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...
+[2024-07-27T22:07:29.404Z] info: 	[Questing Bots] Removing blacklisted brain types from being used for PMC's...done. Removed entries: 144
+[2024-07-27T22:07:29.404Z] warn: 	[Questing Bots] SWAG Detected. Disabling bot spawning.
+[2024-07-27T22:07:29.410Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-07-27T22:07:29.411Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-07-27T22:07:29.411Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-07-27T22:07:31.288Z] info: 	[Client Request] /launcher/server/connect
+[2024-07-27T22:07:31.299Z] info: 	[Client Request] /launcher/ping
+[2024-07-27T22:07:31.300Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:07:31.304Z] info: 	[Client Request] /files/launcher/bg.png
+[2024-07-27T22:07:31.309Z] info: 	[Client Request] /launcher/ping
+[2024-07-27T22:07:31.516Z] info: 	[Client Request] /launcher/profiles
+[2024-07-27T22:07:34.434Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-07-27T22:07:36.163Z] info: 	[Client Request] /launcher/profile/login
+[2024-07-27T22:07:42.628Z] info: 	[Client Request] /launcher/profile/register
+[2024-07-27T22:07:42.636Z] info: 	[Client Request] /launcher/profile/login
+[2024-07-27T22:07:42.637Z] info: 	[Client Request] /launcher/profile/get
+[2024-07-27T22:07:42.640Z] info: 	[Client Request] /launcher/profile/info
+[2024-07-27T22:07:42.644Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:07:42.650Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2024-07-27T22:07:42.656Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2024-07-27T22:07:42.659Z] info: 	[Client Request] /launcher/profile/login
+[2024-07-27T22:07:42.660Z] info: 	[Client Request] /launcher/profile/get
+[2024-07-27T22:07:42.661Z] info: 	[Client Request] /launcher/profile/info
+[2024-07-27T22:07:42.661Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:07:46.315Z] info: 	[Client Request] /launcher/profile/login
+[2024-07-27T22:07:46.317Z] info: 	[Client Request] /launcher/profile/get
+[2024-07-27T22:07:46.318Z] info: 	[Client Request] /launcher/profile/info
+[2024-07-27T22:07:46.319Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:07:46.325Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:07:54.465Z] debug: 	Saved 1 profiles, took: 2.23ms
+[2024-07-27T22:07:55.425Z] info: 	[Client Request] /QuestingBots/GetConfig
+[2024-07-27T22:07:55.939Z] info: 	[Client Request] /singleplayer/bossconvert
+[2024-07-27T22:07:56.255Z] info: 	[Client Request] /fika/client/config
+[2024-07-27T22:07:56.259Z] info: 	[Client Request] /fika/natpunchserver/config
+[2024-07-27T22:07:56.633Z] info: 	[Client Request] /singleplayer/airdrop/config
+[2024-07-27T22:07:56.640Z] info: 	[Client Request] /singleplayer/settings/bot/difficulties/
+[2024-07-27T22:07:56.702Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/core/core
+[2024-07-27T22:08:03.073Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-07-27T22:08:03.074Z] info: 	[Client Request] /singleplayer/release
+[2024-07-27T22:08:03.077Z] info: 	[Client Request] /singleplayer/enableBSGlogging
+[2024-07-27T22:08:03.551Z] info: 	[Client Request] /MoreCheckmarksRoutes/quests
+[2024-07-27T22:08:03.551Z] info: 	MoreCheckmarks making quest data request
+[2024-07-27T22:08:03.551Z] info: 	Unable to fetch quests for MoreCheckmarks
+[2024-07-27T22:08:03.552Z] info: 	[Client Request] /MoreCheckmarksRoutes/items
+[2024-07-27T22:08:03.552Z] info: 	MoreCheckmarks making item data request
+[2024-07-27T22:08:04.205Z] info: 	[Client Request] /MoreCheckmarksRoutes/assorts
+[2024-07-27T22:08:04.205Z] info: 	MoreCheckmarks making trader assort data request
+[2024-07-27T22:08:04.374Z] info: 	[Client Request] /MoreCheckmarksRoutes/productions
+[2024-07-27T22:08:04.375Z] info: 	MoreCheckmarks making productions request
+[2024-07-27T22:08:04.769Z] info: 	[Client Request] /singleplayer/bundles
+[2024-07-27T22:08:10.126Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-07-27T22:08:10.202Z] info: 	[Client Request] /client/menu/locale/en
+[2024-07-27T22:08:10.263Z] info: 	[Client Request] /client/game/mode
+[2024-07-27T22:08:10.317Z] info: 	[Client Request] /client/game/start
+[2024-07-27T22:08:10.317Z] debug: 	Added custom boss wave to factory4_day of type pmcBEAR, time: -1, chance: 25, zone: BotZone
+[2024-07-27T22:08:10.317Z] debug: 	Added custom boss wave to factory4_day of type pmcUSEC, time: -1, chance: 25, zone: BotZone
+[2024-07-27T22:08:10.317Z] debug: 	Added custom boss wave to bigmap of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase
+[2024-07-27T22:08:10.317Z] debug: 	Added custom boss wave to bigmap of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase
+[2024-07-27T22:08:10.317Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneRoad
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneRoad
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to woods of type pmcBEAR, time: -1, chance: 25, zone: ZoneClearVill
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to woods of type pmcUSEC, time: -1, chance: 25, zone: ZoneClearVill
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 20, zone: ZonePort
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 20, zone: ZonePort
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcUSEC, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to shoreline of type pmcBEAR, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcBEAR, time: -1, chance: 30, zone: BotZoneBasement
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to laboratory of type pmcUSEC, time: -1, chance: 30, zone: BotZoneBasement
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to interchange of type pmcBEAR, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to interchange of type pmcUSEC, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to lighthouse of type pmcBEAR, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to lighthouse of type pmcUSEC, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to rezervbase of type pmcBEAR, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to rezervbase of type pmcUSEC, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to sandbox of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to sandbox of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to sandbox_high of type pmcBEAR, time: -1, chance: 30, zone: ZoneSandbox
+[2024-07-27T22:08:10.318Z] debug: 	Added custom boss wave to sandbox_high of type pmcUSEC, time: -1, chance: 30, zone: ZoneSandbox
+[2024-07-27T22:08:10.319Z] info: 	[Questing Bots] Scav profile hasn't been created yet.
+[2024-07-27T22:08:10.381Z] info: 	[Client Request] /client/game/version/validate
+[2024-07-27T22:08:10.381Z] succ: 	Halloween event is active
+[2024-07-27T22:08:10.383Z] error: 	Bigger Pockets: New profile detected, Cancelling functionTypeError: Cannot read properties of undefined (reading 'items')
+[2024-07-27T22:08:10.383Z] error: 	SVM:Edit health - Unknown error occuredTypeError: Cannot read properties of undefined (reading 'BodyParts')
+[2024-07-27T22:08:10.433Z] info: 	[Client Request] /client/languages
+[2024-07-27T22:08:10.491Z] info: 	[Client Request] /client/game/config
+[2024-07-27T22:08:10.688Z] info: 	[Client Request] /fika/client/check/mods
+[2024-07-27T22:08:13.089Z] info: 	[Client Request] /client/items
+[2024-07-27T22:08:13.126Z] info: 	SWAG: Vanilla spawn systems disabled
+[2024-07-27T22:08:14.505Z] debug: 	Saved 1 profiles, took: 0.10ms
+[2024-07-27T22:08:17.682Z] info: 	[Client Request] /client/customization
+[2024-07-27T22:08:17.802Z] info: 	[Client Request] /client/globals
+[2024-07-27T22:08:18.180Z] info: 	[Client Request] /client/trading/api/traderSettings
+[2024-07-27T22:08:18.262Z] info: 	[Client Request] /client/settings
+[2024-07-27T22:08:18.315Z] info: 	[Client Request] /client/game/profile/list
+[2024-07-27T22:08:18.428Z] info: 	[Client Request] /client/account/customization
+[2024-07-27T22:08:18.494Z] info: 	[Client Request] /client/locale/en
+[2024-07-27T22:08:18.836Z] info: 	[Client Request] /client/locale/ru
+[2024-07-27T22:08:19.154Z] info: 	[Client Request] /client/locale/ge
+[2024-07-27T22:08:19.435Z] info: 	[Client Request] /client/locale/fr
+[2024-07-27T22:08:26.648Z] info: 	[Client Request] /client/game/profile/nickname/reserved
+[2024-07-27T22:08:30.112Z] info: 	[Client Request] /client/game/profile/nickname/validate
+[2024-07-27T22:08:32.948Z] info: 	[Client Request] /client/game/profile/nickname/validate
+[2024-07-27T22:08:34.530Z] debug: 	Saved 1 profiles, took: 0.06ms
+[2024-07-27T22:08:41.598Z] info: 	[Client Request] /client/game/profile/create
+[2024-07-27T22:08:41.600Z] debug: 	unable to sort 17 slots, no slots found
+[2024-07-27T22:08:41.600Z] debug: 	unable to sort 4 slots, no slots found
+[2024-07-27T22:08:41.600Z] debug: 	unable to sort 20 slots, no slots found
+[2024-07-27T22:08:41.600Z] debug: 	unable to sort 6 slots, no slots found
+[2024-07-27T22:08:41.600Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-07-27T22:08:41.600Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-07-27T22:08:41.600Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-07-27T22:08:41.600Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-07-27T22:08:41.601Z] debug: 	generated player scav loadout with karma level 0
+[2024-07-27T22:08:41.673Z] info: 	[Client Request] /client/game/profile/list
+[2024-07-27T22:08:41.756Z] info: 	[Client Request] /client/game/profile/select
+[2024-07-27T22:08:41.811Z] info: 	[Client Request] /MoreCheckmarksRoutes/quests
+[2024-07-27T22:08:41.811Z] info: 	MoreCheckmarks making quest data request
+[2024-07-27T22:08:41.811Z] info: 	Got quests
+[2024-07-27T22:08:41.996Z] info: 	[Client Request] /MoreCheckmarksRoutes/assorts
+[2024-07-27T22:08:41.997Z] info: 	MoreCheckmarks making trader assort data request
+[2024-07-27T22:08:42.096Z] info: 	[Client Request] /MoreCheckmarksRoutes/productions
+[2024-07-27T22:08:42.097Z] info: 	MoreCheckmarks making productions request
+[2024-07-27T22:08:42.107Z] info: 	[Client Request] /client/items/prices/54cb50c76803fa8b248b4571
+[2024-07-27T22:08:42.115Z] info: 	[Client Request] /client/items/prices/54cb57776803fa99248b456e
+[2024-07-27T22:08:42.125Z] info: 	[Client Request] /client/items/prices/579dc571d53a0658a154fbec
+[2024-07-27T22:08:42.135Z] info: 	[Client Request] /client/items/prices/58330581ace78e27b8b10cee
+[2024-07-27T22:08:42.145Z] info: 	[Client Request] /client/items/prices/6617beeaa9cfa777ca915b7c
+[2024-07-27T22:08:42.149Z] info: 	[Client Request] /client/items/prices/5935c25fb3acc3127c3d8cd9
+[2024-07-27T22:08:42.152Z] info: 	[Client Request] /client/items/prices/5c0647fdd443bc2504c2d371
+[2024-07-27T22:08:42.156Z] info: 	[Client Request] /client/items/prices/638f541a29ffd1183d187f57
+[2024-07-27T22:08:42.159Z] warn: 	Trader: 638f541a29ffd1183d187f57 not found, generating temp entry with default refresh time of: 3600
+[2024-07-27T22:08:42.161Z] info: 	[Client Request] /client/items/prices/5a7c2eca46aef81a7ca2145d
+[2024-07-27T22:08:42.166Z] info: 	[Client Request] /client/items/prices/656f0f98d80a697f855d34b1
+[2024-07-27T22:08:42.170Z] info: 	[Client Request] /client/items/prices/5ac3b934156ae10c4430e83c
+[2024-07-27T22:08:42.173Z] info: 	[Client Request] /client/profile/status
+[2024-07-27T22:08:42.174Z] info: 	[Client Request] /client/items/prices/lotus
+[2024-07-27T22:08:42.337Z] info: 	[Client Request] /client/weather
+[2024-07-27T22:08:42.338Z] info: 	[Client Request] /client/locations
+[2024-07-27T22:08:42.339Z] debug: 	Map: base has no base json file, skipping generation
+[2024-07-27T22:08:42.349Z] warn: 	SWAG: Configured boss spawns for map bigmap
+[2024-07-27T22:08:42.349Z] warn: 	SWAG: Configured boss spawns for map factory4_day
+[2024-07-27T22:08:42.349Z] warn: 	SWAG: Configured boss spawns for map factory4_night
+[2024-07-27T22:08:42.349Z] warn: 	SWAG: Configured boss spawns for map interchange
+[2024-07-27T22:08:42.349Z] warn: 	SWAG: Configured boss spawns for map laboratory
+[2024-07-27T22:08:42.350Z] warn: 	SWAG: Configured boss spawns for map lighthouse
+[2024-07-27T22:08:42.350Z] warn: 	SWAG: Configured boss spawns for map rezervbase
+[2024-07-27T22:08:42.350Z] warn: 	SWAG: Configured boss spawns for map shoreline
+[2024-07-27T22:08:42.350Z] warn: 	SWAG: Configured boss spawns for map tarkovstreets
+[2024-07-27T22:08:42.350Z] warn: 	SWAG: Configured boss spawns for map woods
+[2024-07-27T22:08:42.351Z] warn: 	SWAG: Configured boss spawns for map sandbox
+[2024-07-27T22:08:42.351Z] warn: 	SWAG: Configured boss spawns for map sandbox_high
+[2024-07-27T22:08:42.351Z] debug: 	Map: base has no base json file, skipping generation
+[2024-07-27T22:08:43.006Z] info: 	[Client Request] /client/handbook/templates
+[2024-07-27T22:08:43.185Z] info: 	[Client Request] /singleplayer/log
+[2024-07-27T22:08:43.186Z] info: 	[Questing Bots] Validated all quest files
+[2024-07-27T22:08:44.353Z] info: 	[Client Request] /client/hideout/areas
+[2024-07-27T22:08:44.478Z] info: 	[Client Request] /client/hideout/qte/list
+[2024-07-27T22:08:44.516Z] info: 	[Client Request] /client/hideout/settings
+[2024-07-27T22:08:44.566Z] info: 	[Client Request] /client/hideout/production/recipes
+[2024-07-27T22:08:44.666Z] info: 	[Client Request] /client/hideout/production/scavcase/recipes
+[2024-07-27T22:08:44.716Z] info: 	[Client Request] /client/builds/list
+[2024-07-27T22:08:45.903Z] info: 	[Client Request] /singleplayer/log
+[2024-07-27T22:08:45.903Z] debug: 	[SPT.Core] 1077896
+[2024-07-27T22:08:45.904Z] info: 	[Client Request] /singleplayer/log
+[2024-07-27T22:08:45.905Z] debug: 	[SPT.Core] 1498960
+[2024-07-27T22:08:45.906Z] info: 	[Client Request] /singleplayer/log
+[2024-07-27T22:08:45.906Z] debug: 	[SPT.Core] 0
+[2024-07-27T22:08:46.630Z] info: 	[Client Request] /launcher/profile/info
+[2024-07-27T22:08:46.631Z] info: 	[Client Request] /launcher/server/version
+[2024-07-27T22:08:46.632Z] info: 	[Client Request] /files/launcher/side_usec.png
+[2024-07-27T22:08:46.994Z] info: 	[Client Request] /client/notifier/channel/create
+[2024-07-27T22:08:46.995Z] info: 	[Client Request] /client/profile/status
+[2024-07-27T22:08:46.995Z] info: 	[Client Request] /client/trading/customization/storage
+[2024-07-27T22:08:47.053Z] info: 	[Client Request] /client/server/list
+[2024-07-27T22:08:47.055Z] info: 	[WS] Player: Mattdokn (66a56fae000049a8d5cd5806) has connected
+[2024-07-27T22:08:47.055Z] info: 	WebSocketHandler "SPT WebSocket Handler" connected
+[2024-07-27T22:08:47.056Z] info: 	[Client Request] /client/match/group/current
+[2024-07-27T22:08:47.056Z] info: 	[Client Request] /client/friend/list
+[2024-07-27T22:08:47.059Z] info: 	[Client Request] /client/mail/dialog/list
+[2024-07-27T22:08:47.060Z] info: 	[Client Request] /client/friend/request/list/inbox
+[2024-07-27T22:08:47.060Z] info: 	[Client Request] /client/friend/request/list/outbox
+[2024-07-27T22:08:47.061Z] info: 	[Client Request] /client/quest/list
+[2024-07-27T22:08:47.155Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-07-27T22:08:47.155Z] debug: 	Daily scav quests still locked, Intel center not built
+[2024-07-27T22:08:47.198Z] info: 	[Client Request] /client/achievement/statistic
+[2024-07-27T22:08:47.247Z] info: 	[Client Request] /client/achievement/list
+[2024-07-27T22:08:54.564Z] debug: 	Saved 1 profiles, took: 2.36ms
+[2024-07-27T22:09:14.587Z] debug: 	Saved 1 profiles, took: 2.37ms
+[2024-07-27T22:09:24.149Z] info: 	[Client Request] /client/checkVersion
+[2024-07-27T22:09:24.150Z] info: 	[Client Request] /client/game/profile/items/moving
+[2024-07-27T22:09:24.150Z] debug: 	event: Move
+[2024-07-27T22:09:24.150Z] debug: 	Move item: 60b75016bb9e04c1ed559ebe from slotid: SecuredContainer to container: hideout
+[2024-07-27T22:09:24.151Z] debug: 	event: Move
+[2024-07-27T22:09:24.151Z] debug: 	Move item: 60b75016bb9e04c1ed559ebe from slotid: hideout to container: SecuredContainer
+[2024-07-27T22:09:24.151Z] debug: 	event: Remove
+[2024-07-27T22:09:25.729Z] info: 	[Client Request] /client/match/group/invite/cancel-all
+[2024-07-27T22:09:25.782Z] info: 	[Client Request] /client/game/logout
+[2024-07-27T22:09:25.785Z] debug: 	Saved 1 profiles, took: 2.22ms
+[2024-07-27T22:09:27.638Z] info: 	[Client Request] /launcher/profile/info
+[2024-07-27T22:09:27.639Z] info: 	[Client Request] /launcher/server/version

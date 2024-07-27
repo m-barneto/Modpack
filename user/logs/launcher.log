@@ -1,0 +1,26 @@
+[2024-07-27 18:07:25] ==== Launcher Started ====
+[2024-07-27 18:07:25][Info] Using launcher config at: C:\Games\SPT 3.9.4 - Fika\user\launcher\config.json
+[2024-07-27 18:07:25][Info] Server URL is already set to default 'http://127.0.0.1:6969'
+[2024-07-27 18:07:25][Info] Game path is already set to default 'C:\Games\SPT 3.9.4 - Fika'
+[2024-07-27 18:07:31][Info] Connected to server: http://127.0.0.1:6969 - SPT Version: 3.9.4
+[2024-07-27 18:07:42][Info] Account Registered: Mattdokn
+[2024-07-27 18:07:46][Info] >>> Launching Game
+[2024-07-27 18:07:46][Info] >>> Account: Mattdokn
+[2024-07-27 18:07:46][Info] >>> Server : http://127.0.0.1:6969
+[2024-07-27 18:07:46][Info] [LaunchGame] spt-core.dll version: 3.9.4
+[2024-07-27 18:07:46][Info] [LaunchGame] Installed in Live :: NO
+[2024-07-27 18:07:46][Info] [LaunchGame] Setup Game Files ...
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\BattlEye
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\BattlEye\Text
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2023.11.24_3-53-42_0.13.9.1.27050
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2023.11.24_3-59-47_0.13.9.1.27050
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2023.11.26_1-26-23_0.13.9.1.27050
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2023.11.26_1-27-35_0.13.9.1.27050
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2024.03.23_16-37-49_0.14.1.2.29197
+[2024-07-27 18:07:46][Info] Recursive Removal: C:\Games\SPT 3.9.4 - Fika\Logs\log_2024.03.26_23-21-02_0.14.1.2.29197
+[2024-07-27 18:07:46][Info] [LaunchGame] Game Validation   :: OK
+[2024-07-27 18:07:46][Info] [LaunchGame] Wipe profile requested
+[2024-07-27 18:07:46][Info] [LaunchGame] Valid Game Path   :: OK
+[2024-07-27 18:07:46][Info] [LaunchGame] Applying Patch    :: OK
+[2024-07-27 18:07:46][Info] [LaunchGame] Game process started

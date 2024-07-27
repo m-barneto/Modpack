@@ -1,0 +1,146 @@
+{
+    "equipment": "5fe49444ae6628187a2e77b8",
+    "fastPanel": {},
+    "items": [
+        {
+            "_id": "5fe49444ae6628187a2e77b8",
+            "_tpl": "55d7217a4bdc2d86028b456d"
+        },
+        {
+            "_id": "2fcf97cb76afa75545d02d8d",
+            "_tpl": "5857a8bc2459772bad15db29",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "SecuredContainer"
+        },
+        {
+            "_id": "325a0522b36c3efd6100df25",
+            "_tpl": "627a4e6b255f7527fb05a0f6",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "Pockets"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b8",
+            "_tpl": "5811ce772459770e9e5f9532"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78ba",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b9",
+            "_tpl": "5963866286f7747bf429b572"
+        },
+        {
+            "_id": "60dca3da42ad9b706b369aca",
+            "_tpl": "602543c13fee350cd564d032"
+        },
+        {
+            "_id": "c549f3ce8fe63cf9f9940de3",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+        {
+            "_id": "701d1553579e0dbb54ac209b",
+            "_tpl": "5a17f98cfcdbcb0980087290",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "Holster",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "b5b0611ce83e01829ebcf0da",
+            "_tpl": "5a17fb03fcdbcbcae668728f",
+            "parentId": "325a0522b36c3efd6100df25",
+            "slotId": "pocket1",
+            "upd": {
+                "StackObjectsCount": 1
+            },
+            "location": {
+                "x": 0,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            }
+        },
+        {
+            "_id": "a7f09bc41dbbca3a61096bd5",
+            "_tpl": "5a17fc70fcdbcb0176308b3d",
+            "parentId": "701d1553579e0dbb54ac209b",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "5c39ad67edfddafc02ed8058",
+            "_tpl": "5aba62f8d8ce87001943946b",
+            "parentId": "701d1553579e0dbb54ac209b",
+            "slotId": "mod_sight_front",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "68057e9d8a5171f2cfaff3d8",
+            "_tpl": "5aba637ad8ce87001773e17f",
+            "parentId": "701d1553579e0dbb54ac209b",
+            "slotId": "mod_sight_rear",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "71c38f401716e021163632bc",
+            "_tpl": "5a17fb03fcdbcbcae668728f",
+            "parentId": "701d1553579e0dbb54ac209b",
+            "slotId": "mod_magazine",
+            "upd": {
+                "StackObjectsCount": 1,
+                "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                }
+            }
+        },
+        {
+            "_id": "fac82fa3f389a09b2dcf71a1",
+            "_tpl": "573719762459775a626ccbc1",
+            "parentId": "325a0522b36c3efd6100df25",
+            "slotId": "pocket2",
+            "location": {
+                "x": 0,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 20
+            }
+        },
+        {
+            "_id": "2d8b1d1488c63068f6e674ac",
+            "_tpl": "573719762459775a626ccbc1",
+            "parentId": "71c38f401716e021163632bc",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+                "StackObjectsCount": 20
+            }
+        },
+        {
+            "_id": "45442ab89b58c48b624ad9d7",
+            "_tpl": "573719762459775a626ccbc1",
+            "parentId": "b5b0611ce83e01829ebcf0da",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+                "StackObjectsCount": 20
+            }
+        }
+        
+    ],
+    "questRaidItems": "5fe49444ae6628187a2e78b9",
+    "questStashItems": "5fe49444ae6628187a2e78ba",
+    "sortingTable": "60dca3da42ad9b706b369aca",
+    "stash": "5fe49444ae6628187a2e78b8"
+}

@@ -11,15 +11,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a;
+var _a, _b, _c, _d;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FikaPlayerRelationsHelper = void 0;
 const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
 const FikaPlayerRelationsCacheService_1 = require("../services/cache/FikaPlayerRelationsCacheService");
+const SaveServer_1 = require("C:/snapshot/project/obj/servers/SaveServer");
+const SptWebSocketConnectionHandler_1 = require("C:/snapshot/project/obj/servers/ws/SptWebSocketConnectionHandler");
+const ILogger_1 = require("C:/snapshot/project/obj/models/spt/utils/ILogger");
 let FikaPlayerRelationsHelper = class FikaPlayerRelationsHelper {
     fikaPlayerRelationsCacheService;
-    constructor(fikaPlayerRelationsCacheService) {
+    saveServer;
+    webSocketHandler;
+    logger;
+    constructor(fikaPlayerRelationsCacheService, saveServer, webSocketHandler, logger) {
         this.fikaPlayerRelationsCacheService = fikaPlayerRelationsCacheService;
+        this.saveServer = saveServer;
+        this.webSocketHandler = webSocketHandler;
+        this.logger = logger;
         // empty
     }
     /**
@@ -80,6 +89,25 @@ let FikaPlayerRelationsHelper = class FikaPlayerRelationsHelper {
             playerRelations2.Friends.splice(playerRelations2.Friends.indexOf(fromProfileId), 1);
             this.fikaPlayerRelationsCacheService.storeValue(toProfileId, playerRelations2);
         }
+        this.logger.info(`removeFriend: ${fromProfileId}->${toProfileId}`);
+        const profile = this.saveServer.getProfile(fromProfileId);
+        this.webSocketHandler.sendMessage(toProfileId, {
+            type: "youAreRemovedFromFriendList",
+            eventId: "youAreRemovedFromFriendList",
+            profile: {
+                _id: profile.info.id,
+                aid: profile.info.aid,
+                Info: {
+                    Nickname: profile.characters.pmc.Info.Nickname,
+                    Side: profile.characters.pmc.Info.Side,
+                    Level: profile.characters.pmc.Info.Level,
+                    MemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    SelectedMemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    Ignored: false,
+                    Banned: profile.characters.pmc.Info.BannedState
+                }
+            }
+        });
     }
     /**
      * If player2 is not in player1's ignore list, it adds them
@@ -88,10 +116,30 @@ let FikaPlayerRelationsHelper = class FikaPlayerRelationsHelper {
      */
     addToIgnoreList(fromProfileId, toProfileId) {
         const playerRelations = this.fikaPlayerRelationsCacheService.getStoredValue(fromProfileId);
-        if (!playerRelations.Ignore.includes(toProfileId)) {
-            playerRelations.Ignore.push(toProfileId);
-            this.fikaPlayerRelationsCacheService.storeValue(fromProfileId, playerRelations);
+        if (playerRelations.Ignore.includes(toProfileId)) {
+            return;
         }
+        playerRelations.Ignore.push(toProfileId);
+        this.fikaPlayerRelationsCacheService.storeValue(fromProfileId, playerRelations);
+        let profile = this.saveServer.getProfile(fromProfileId);
+        this.webSocketHandler.sendMessage(toProfileId, {
+            type: "youAreAddToIgnoreList",
+            eventId: "youAreAddToIgnoreList",
+            _id: fromProfileId,
+            profile: {
+                _id: profile.info.id,
+                aid: profile.info.aid,
+                Info: {
+                    Nickname: profile.characters.pmc.Info.Nickname,
+                    Side: profile.characters.pmc.Info.Side,
+                    Level: profile.characters.pmc.Info.Level,
+                    MemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    SelectedMemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    Ignored: false,
+                    Banned: profile.characters.pmc.Info.BannedState
+                }
+            }
+        });
     }
     /**
      * If player2 is in player1's ignore list, it removes them
@@ -100,16 +148,39 @@ let FikaPlayerRelationsHelper = class FikaPlayerRelationsHelper {
      */
     removeFromIgnoreList(fromProfileId, toProfileId) {
         const playerRelations = this.fikaPlayerRelationsCacheService.getStoredValue(fromProfileId);
-        if (playerRelations.Ignore.includes(toProfileId)) {
-            playerRelations.Ignore.splice(playerRelations.Ignore.indexOf(toProfileId), 1);
-            this.fikaPlayerRelationsCacheService.storeValue(fromProfileId, playerRelations);
+        if (!playerRelations.Ignore.includes(toProfileId)) {
+            return;
         }
+        playerRelations.Ignore.splice(playerRelations.Ignore.indexOf(toProfileId), 1);
+        this.fikaPlayerRelationsCacheService.storeValue(fromProfileId, playerRelations);
+        let profile = this.saveServer.getProfile(fromProfileId);
+        this.webSocketHandler.sendMessage(toProfileId, {
+            type: "youAreRemoveFromIgnoreList",
+            eventId: "youAreRemoveFromIgnoreList",
+            _id: fromProfileId,
+            profile: {
+                _id: profile.info.id,
+                aid: profile.info.aid,
+                Info: {
+                    Nickname: profile.characters.pmc.Info.Nickname,
+                    Side: profile.characters.pmc.Info.Side,
+                    Level: profile.characters.pmc.Info.Level,
+                    MemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    SelectedMemberCategory: profile.characters.pmc.Info.MemberCategory,
+                    Ignored: false,
+                    Banned: profile.characters.pmc.Info.BannedState
+                }
+            }
+        });
     }
 };
 exports.FikaPlayerRelationsHelper = FikaPlayerRelationsHelper;
 exports.FikaPlayerRelationsHelper = FikaPlayerRelationsHelper = __decorate([
     (0, tsyringe_1.injectable)(),
     __param(0, (0, tsyringe_1.inject)("FikaPlayerRelationsCacheService")),
-    __metadata("design:paramtypes", [typeof (_a = typeof FikaPlayerRelationsCacheService_1.FikaPlayerRelationsCacheService !== "undefined" && FikaPlayerRelationsCacheService_1.FikaPlayerRelationsCacheService) === "function" ? _a : Object])
+    __param(1, (0, tsyringe_1.inject)("SaveServer")),
+    __param(2, (0, tsyringe_1.inject)("SptWebSocketConnectionHandler")),
+    __param(3, (0, tsyringe_1.inject)("WinstonLogger")),
+    __metadata("design:paramtypes", [typeof (_a = typeof FikaPlayerRelationsCacheService_1.FikaPlayerRelationsCacheService !== "undefined" && FikaPlayerRelationsCacheService_1.FikaPlayerRelationsCacheService) === "function" ? _a : Object, typeof (_b = typeof SaveServer_1.SaveServer !== "undefined" && SaveServer_1.SaveServer) === "function" ? _b : Object, typeof (_c = typeof SptWebSocketConnectionHandler_1.SptWebSocketConnectionHandler !== "undefined" && SptWebSocketConnectionHandler_1.SptWebSocketConnectionHandler) === "function" ? _c : Object, typeof (_d = typeof ILogger_1.ILogger !== "undefined" && ILogger_1.ILogger) === "function" ? _d : Object])
 ], FikaPlayerRelationsHelper);
 //# sourceMappingURL=FikaPlayerRelationsHelper.js.map

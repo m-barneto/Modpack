@@ -28,6 +28,9 @@ let DialogueControllerOverride = class DialogueControllerOverride extends Overri
             result.getFriendList = (sessionID) => {
                 return this.fikaDialogueController.getFriendList(sessionID);
             };
+            result.sendMessage = (sessionId, request) => {
+                return this.fikaDialogueController.sendMessage(sessionId, request);
+            };
         }, { frequency: "Always" });
     }
 };

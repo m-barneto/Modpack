@@ -29,7 +29,7 @@ let HttpRouterOverride = class HttpRouterOverride extends Override_1.Override {
         container.afterResolution("HttpRouter", (_, result) => {
             const originalGetResponse = result.getResponse;
             result.getResponse = async (req, info, sessionID) => {
-                let response = await originalGetResponse.apply(result, [req, info, sessionID]);
+                let response = (await originalGetResponse.apply(result, [req, info, sessionID]));
                 // if the response contains host, replace host with ours
                 if (req.headers?.host) {
                     response = response.replaceAll(this.httpServerHelper.buildUrl(), req.headers.host);

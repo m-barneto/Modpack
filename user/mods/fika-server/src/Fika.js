@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a, _b, _c, _d;
+var _a, _b, _c, _d, _e;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Fika = void 0;
 const tsyringe_1 = require("C:/snapshot/project/node_modules/tsyringe");
@@ -19,18 +19,23 @@ const DatabaseServer_1 = require("C:/snapshot/project/obj/servers/DatabaseServer
 const Overrider_1 = require("./overrides/Overrider");
 const FikaServerTools_1 = require("./utils/FikaServerTools");
 const FikaConfig_1 = require("./utils/FikaConfig");
+const FikaDedicatedProfileService_1 = require("./services/dedicated/FikaDedicatedProfileService");
 let Fika = class Fika {
     databaseServer;
     overrider;
     fikaServerTools;
     fikaConfig;
+    fikaDedicatedProfileService;
     natPunchServerConfig;
-    constructor(databaseServer, overrider, fikaServerTools, fikaConfig) {
+    dedicatedConfig;
+    constructor(databaseServer, overrider, fikaServerTools, fikaConfig, fikaDedicatedProfileService) {
         this.databaseServer = databaseServer;
         this.overrider = overrider;
         this.fikaServerTools = fikaServerTools;
         this.fikaConfig = fikaConfig;
+        this.fikaDedicatedProfileService = fikaDedicatedProfileService;
         this.natPunchServerConfig = fikaConfig.getConfig().natPunchServer;
+        this.dedicatedConfig = fikaConfig.getConfig().dedicated;
     }
     async preSptLoad(container) {
         await this.overrider.override(container);
@@ -38,6 +43,9 @@ let Fika = class Fika {
     async postSptLoad(container) {
         if (this.natPunchServerConfig.enable) {
             this.fikaServerTools.startService("NatPunchServer");
+        }
+        if (this.dedicatedConfig.profiles.amount > 0) {
+            this.fikaDedicatedProfileService.init();
         }
     }
 };
@@ -48,6 +56,7 @@ exports.Fika = Fika = __decorate([
     __param(1, (0, tsyringe_1.inject)("Overrider")),
     __param(2, (0, tsyringe_1.inject)("FikaServerTools")),
     __param(3, (0, tsyringe_1.inject)("FikaConfig")),
-    __metadata("design:paramtypes", [typeof (_a = typeof DatabaseServer_1.DatabaseServer !== "undefined" && DatabaseServer_1.DatabaseServer) === "function" ? _a : Object, typeof (_b = typeof Overrider_1.Overrider !== "undefined" && Overrider_1.Overrider) === "function" ? _b : Object, typeof (_c = typeof FikaServerTools_1.FikaServerTools !== "undefined" && FikaServerTools_1.FikaServerTools) === "function" ? _c : Object, typeof (_d = typeof FikaConfig_1.FikaConfig !== "undefined" && FikaConfig_1.FikaConfig) === "function" ? _d : Object])
+    __param(4, (0, tsyringe_1.inject)("FikaDedicatedProfileService")),
+    __metadata("design:paramtypes", [typeof (_a = typeof DatabaseServer_1.DatabaseServer !== "undefined" && DatabaseServer_1.DatabaseServer) === "function" ? _a : Object, typeof (_b = typeof Overrider_1.Overrider !== "undefined" && Overrider_1.Overrider) === "function" ? _b : Object, typeof (_c = typeof FikaServerTools_1.FikaServerTools !== "undefined" && FikaServerTools_1.FikaServerTools) === "function" ? _c : Object, typeof (_d = typeof FikaConfig_1.FikaConfig !== "undefined" && FikaConfig_1.FikaConfig) === "function" ? _d : Object, typeof (_e = typeof FikaDedicatedProfileService_1.FikaDedicatedProfileService !== "undefined" && FikaDedicatedProfileService_1.FikaDedicatedProfileService) === "function" ? _e : Object])
 ], Fika);
 //# sourceMappingURL=Fika.js.map

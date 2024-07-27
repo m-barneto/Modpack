@@ -11,10 +11,11 @@ class AmmoStats {
     itemDatabase;
     handbookDatabase;
     localeDatabase;
+    logger;
     postDBLoad(container) {
         const vfs = container.resolve("VFS");
         this.modConfig = jsonc_1.jsonc.parse(vfs.readFile(path_1.default.resolve(__dirname, "../config/config.jsonc")));
-        const logger = container.resolve("WinstonLogger");
+        this.logger = container.resolve("WinstonLogger");
         const databaseServer = container.resolve("DatabaseServer");
         const localeService = container.resolve("LocaleService");
         this.itemDatabase = databaseServer.getTables().templates.items;
@@ -28,7 +29,7 @@ class AmmoStats {
             if (handbookItem == undefined)
                 continue;
             if (item._parent == "5485a8684bdc2da71d8b4567") {
-                if (!("ammoType" in item._props) || item._props.ammoType != "bullet" && item._props.ammoType != "grenade") {
+                if (!("ammoType" in item._props) || item._props.ammoType != "bullet" && item._props.ammoType != "buckshot" && item._props.ammoType != "grenade") {
                     continue;
                 }
                 this.addInfoToName(item, item);
@@ -44,16 +45,16 @@ class AmmoStats {
                 }
                 // Get first slot
                 if (stackSlots[0]._parent != item._id) {
-                    logger.error(`Problem handling ammo box with ID ${item._id}`);
+                    this.logger.error(`Problem handling ammo box with ID ${item._id}`);
                     continue;
                 }
                 if (!("filters" in stackSlots[0]._props)) {
-                    logger.error(`Problem with filters in ammo box with ID ${item._id}`);
+                    this.logger.error(`Problem with filters in ammo box with ID ${item._id}`);
                     continue;
                 }
                 const filters = stackSlots[0]._props.filters;
                 if (filters.length != 1) {
-                    logger.error(`Problem with filters length in ammo box with ID ${item._id}`);
+                    this.logger.error(`Problem with filters length in ammo box with ID ${item._id}`);
                 }
                 const filter = filters[0].Filter[0];
                 const bulletId = filter;
@@ -70,15 +71,21 @@ class AmmoStats {
         const hasPenProp = "PenetrationPower" in bullet._props;
         if (!hasPenProp || !hasDamageProp)
             return;
+        let damageMult = 1;
+        if (bullet._props.ammoType == "buckshot") {
+            damageMult = bullet._props.buckshotBullets;
+        }
+        const damage = String(bullet._props.Damage * damageMult).padStart(this.modConfig.PaddingLength, "0");
+        const pen = String(bullet._props.PenetrationPower).padStart(this.modConfig.PaddingLength, "0");
         let bulletInfo;
         if (this.modConfig.InfoInParenthesis) {
             bulletInfo = "(";
         }
         if (this.modConfig.ShowPenBeforeDmg) {
-            bulletInfo += `${bullet._props.PenetrationPower}/${bullet._props.Damage}`;
+            bulletInfo += `${pen}/${damage}`;
         }
         else {
-            bulletInfo += `${bullet._props.Damage}/${bullet._props.PenetrationPower}`;
+            bulletInfo += `${damage}/${pen}`;
         }
         if (this.modConfig.InfoInParenthesis) {
             bulletInfo += ")";

@@ -9,6 +9,7 @@ const QuestRewardType_1 = require("C:/snapshot/project/obj/models/enums/QuestRew
 const roubleId = "5449016a4bdc2d6f028b456f";
 const dollarId = "5696686a4bdc2da3298b456a";
 const euroId = "569668774bdc2da2298b4568";
+//#endregion
 class TraderQoL {
     modConfig;
     logger;
@@ -25,7 +26,6 @@ class TraderQoL {
             // Unknown and caretaker are excluded
             if (nickname === "caretaker" || nickname === "Unknown" || nickname === "БТР")
                 continue;
-            this.logger.info(`Trader ${nickname}`);
             this.updateTrader(trader);
         }
         if (this.modConfig.questReputationSettings.enabled) {
@@ -175,6 +175,18 @@ class TraderQoL {
                         // Change it's count (price)
                         item.count *= this.modConfig.priceMultiplier;
                     }
+                }
+            }
+        }
+        if (this.modConfig.traderStockMultiplier != 1.0 || this.modConfig.unlimitedTraderStock) {
+            const items = trader.assort.items;
+            for (const itemId in items) {
+                const item = items[itemId];
+                if (this.modConfig.unlimitedTraderStock) {
+                    item.upd.BuyRestrictionMax = Math.max(1.0, Math.round(item.upd.BuyRestrictionMax * this.modConfig.traderStockMultiplier));
+                }
+                else {
+                    item.upd.UnlimitedCount = true;
                 }
             }
         }

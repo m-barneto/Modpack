@@ -38,7 +38,7 @@ let FikaClientCallbacks = class FikaClientCallbacks {
         return this.httpResponseUtil.noBody(this.fikaClientController.handleCheckMods(info));
     }
     /** Handle /fika/profile/download */
-    handleProfileDownload(_url, info, sessionID) {
+    handleProfileDownload(_url, _info, sessionID) {
         return this.httpResponseUtil.noBody(this.fikaClientController.handleProfileDownload(sessionID));
     }
 };

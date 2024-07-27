@@ -3,27 +3,36 @@
         "useBtr": true,
         "friendlyFire": true,
         "dynamicVExfils": false,
-        "allowFreeCam": true,
+        "allowFreeCam": false,
         "allowItemSending": true,
         "blacklistedItems": [],
-        "forceSaveOnDeath": true,
+        "forceSaveOnDeath": false,
         "mods": {
             "required": [],
             "optional": []
         },
         "useInertia": false,
-        "sharedQuestProgression": false
+        "sharedQuestProgression": true
     },
     "server": {
         "giftedItemsLoseFIR": true,
         "launcherListAllProfiles": false,
         "sessionTimeout": 5,
         "showDevProfile": false,
-        "showNonStandardProfile": false
+        "showNonStandardProfile": true
     },
     "natPunchServer": {
         "enable": false,
         "port": 6790,
         "natIntroduceAmount": 1
+    },
+    "dedicated": {
+        "profiles": {
+            "amount": 0
+        },
+        "scripts": {
+            "generate": true,
+            "forceIp": ""
+        }
     }
 }

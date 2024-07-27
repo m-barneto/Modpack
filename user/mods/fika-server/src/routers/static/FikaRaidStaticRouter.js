@@ -31,13 +31,19 @@ let FikaRaidStaticRouter = class FikaRaidStaticRouter extends Router_1.StaticRou
                 return this.fikaRaidCallbacks.handleRaidLeave(url, info, sessionID);
             }),
             new Router_1.RouteAction("/fika/raid/gethost", async (url, info, sessionID, _output) => {
-                return this.fikaRaidCallbacks.handleRaidGethost(url, info, sessionID);
-            }),
-            new Router_1.RouteAction("/fika/raid/spawnpoint", async (url, info, sessionID, _output) => {
-                return this.fikaRaidCallbacks.handleRaidSpawnpoint(url, info, sessionID);
+                return this.fikaRaidCallbacks.handleRaidGetHost(url, info, sessionID);
             }),
             new Router_1.RouteAction("/fika/raid/getsettings", async (url, info, sessionID, _output) => {
                 return this.fikaRaidCallbacks.handleRaidGetSettings(url, info, sessionID);
+            }),
+            new Router_1.RouteAction("/fika/raid/dedicated/start", async (url, info, sessionID, _output) => {
+                return this.fikaRaidCallbacks.handleRaidStartDedicated(url, info, sessionID);
+            }),
+            new Router_1.RouteAction("/fika/raid/dedicated/status", async (url, info, sessionID, _output) => {
+                return this.fikaRaidCallbacks.handleRaidStatusDedicated(url, info, sessionID);
+            }),
+            new Router_1.RouteAction("/fika/raid/dedicated/getstatus", async (url, info, sessionID, _output) => {
+                return this.fikaRaidCallbacks.handleRaidGetStatusDedicated(url, info, sessionID);
             }),
         ]);
         this.fikaRaidCallbacks = fikaRaidCallbacks;

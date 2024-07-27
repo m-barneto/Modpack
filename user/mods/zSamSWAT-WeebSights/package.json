@@ -1,0 +1,9 @@
+{
+  "name": "Weeb Sights",
+  "author": "SamSWAT",
+  "license": "CC BY-NC-SA 4.0",
+  "version": "1.0.0",
+  "sptVersion": "~3.9",
+  "main": "mod.js",
+	"isBundleMod": true
+}

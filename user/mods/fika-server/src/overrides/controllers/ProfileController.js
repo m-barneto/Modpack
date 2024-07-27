@@ -39,6 +39,8 @@ let ProfileControllerOverride = class ProfileControllerOverride extends Override
                 const profiles = this.profileHelper.getProfiles();
                 const matches = [];
                 for (const profile of Object.values(profiles)) {
+                    if (profile.info?.password === "fika-dedicated")
+                        continue;
                     if (profile.characters?.pmc?.Info) {
                         if (profile.characters.pmc.Info.Nickname.toLowerCase().startsWith(searchNicknameLowerCase)) {
                             matches.push({

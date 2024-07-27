@@ -3,141 +3,180 @@
     "0": {
       "currentLevel": 3,
       "raidsSinceStarted": 0,
-      "timeAvailable": 1720942598549
+      "timeAvailable": 1721494372717
+    },
+    "1": {
+      "currentLevel": 3,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1721494372717
+    },
+    "5": {
+      "currentLevel": 3,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1721494372717
+    },
+    "6": {
+      "currentLevel": 2,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1721494372717
+    },
+    "7": {
+      "currentLevel": 3,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1721494372717
     },
     "8": {
       "currentLevel": 2,
       "raidsSinceStarted": 0,
-      "timeAvailable": 1720942598549
+      "timeAvailable": 1721494372717
     },
-    "9": {
+    "12": {
       "currentLevel": 2,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1720942598549
+      "raidsSinceStarted": 8,
+      "timeAvailable": 1721402018516
+    },
+    "16": {
+      "currentLevel": 1,
+      "raidsSinceStarted": 8,
+      "timeAvailable": 1721402018516
     },
     "21": {
       "currentLevel": 1,
-      "raidsSinceStarted": 42,
-      "timeAvailable": 1720900310471
+      "raidsSinceStarted": 8,
+      "timeAvailable": 1721402018516
+    },
+    "24": {
+      "currentLevel": 1,
+      "raidsSinceStarted": 8,
+      "timeAvailable": 1721402018516
     }
   },
   "quests": {
     "6658a15615cbb1b2c6014d5b": {
-      "raidsSinceStarted": 42
+      "raidsSinceStarted": 8
+    },
+    "596a1e6c86f7741ddc2d3206": {
+      "raidsSinceStarted": 0
+    },
+    "596a218586f77420d232807c": {
+      "raidsSinceStarted": 0
+    },
+    "60896e28e4a85c72ef3fa301": {
+      "raidsSinceStarted": 0
     },
     "596b455186f77457cb50eccb": {
-      "raidsSinceStarted": 42
+      "raidsSinceStarted": 8
     },
-    "5ac2428686f77412450b42bf": {
+    "6179ad56c760af5ad2053587": {
       "raidsSinceStarted": 0
     },
-    "596a204686f774576d4c95de": {
-      "raidsSinceStarted": 0
+    "5ae448bf86f7744d733e55ee": {
+      "raidsSinceStarted": 8
     },
-    "6691dd5cf44954f48c000001": {
+    "5ae448e586f7744dcf0c2a67": {
       "raidsSinceStarted": 0
     },
     "Lotus_pistolcal": {
-      "raidsSinceStarted": 42
+      "raidsSinceStarted": 0
     },
-    "Lotus_shotguncal": {
+    "639872f9decada40426d3447": {
+      "raidsSinceStarted": 0
+    },
+    "5a27d2af86f7744e1115b323": {
+      "raidsSinceStarted": 0
+    },
+    "5a68661a86f774500f48afb0": {
+      "raidsSinceStarted": 0
+    },
+    "5c0d190cd09282029f5390d8": {
+      "raidsSinceStarted": 0
+    },
+    "Lotus_specialcal": {
+      "raidsSinceStarted": 8
+    },
+    "Lotus_subsoniccal": {
+      "raidsSinceStarted": 8
+    },
+    "Lotus_556x45": {
       "raidsSinceStarted": 0
     },
     "Lotus_homedepot": {
-      "raidsSinceStarted": 42
-    },
-    "5ae448bf86f7744d733e55ee": {
-      "raidsSinceStarted": 42
-    },
-    "5ae448e586f7744dcf0c2a67": {
-      "raidsSinceStarted": 42
-    },
-    "638fcd23dc65553116701d33": {
-      "raidsSinceStarted": 42
-    },
-    "Lotus_specialcal": {
-      "raidsSinceStarted": 42
-    },
-    "Lotus_subsoniccal": {
-      "raidsSinceStarted": 42
-    },
-    "Lotus_545x39": {
-      "raidsSinceStarted": 42
-    },
-    "Lotus_556x45": {
-      "raidsSinceStarted": 42
+      "raidsSinceStarted": 0
     },
     "Lotus_carrier_2": {
-      "raidsSinceStarted": 42
-    },
-    "5c0d190cd09282029f5390d8": {
-      "raidsSinceStarted": 34
-    },
-    "Lotus_narco_1": {
-      "raidsSinceStarted": 42
-    },
-    "Lotus_ruafinfil_1": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 8
     },
     "Lotus_light_4": {
-      "raidsSinceStarted": 42
+      "raidsSinceStarted": 8
     },
     "Lotus_checkmate_2": {
-      "raidsSinceStarted": 42
-    },
-    "63a88045abf76d719f42d715": {
-      "raidsSinceStarted": 34
-    },
-    "6692f36cc2ad04628b000001": {
-      "raidsSinceStarted": 0
-    },
-    "6692f36cc2ad04628b000006": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 8
     },
     "5bc47dbf86f7741ee74e93b9": {
-      "raidsSinceStarted": 34
+      "raidsSinceStarted": 8
     },
-    "5a27d2af86f7744e1115b323": {
-      "raidsSinceStarted": 24
+    "63a88045abf76d719f42d715": {
+      "raidsSinceStarted": 8
     },
-    "66058cb5ae4719735349b9e8": {
-      "raidsSinceStarted": 20
-    },
-    "5d25cf2686f77443e75488d4": {
-      "raidsSinceStarted": 2
-    },
-    "5d25d2c186f77443e35162e5": {
-      "raidsSinceStarted": 2
-    },
-    "5d25e48d86f77408251c4bfb": {
-      "raidsSinceStarted": 16
-    },
-    "66934135c5c2600fcf000001": {
+    "63ab180c87413d64ae0ac20a": {
       "raidsSinceStarted": 0
     },
-    "5ac3460c86f7742880308185": {
-      "raidsSinceStarted": 2
+    "66058cb5ae4719735349b9e8": {
+      "raidsSinceStarted": 8
     },
     "5ede55112c95834b583f052a": {
-      "raidsSinceStarted": 10
-    },
-    "5967530a86f77462ba22226b": {
-      "raidsSinceStarted": 10
-    },
-    "5979f9ba86f7740f6c3fe9f2": {
       "raidsSinceStarted": 8
     },
     "5979f8bb86f7743ec214c7a6": {
-      "raidsSinceStarted": 2
+      "raidsSinceStarted": 8
+    },
+    "5ac3460c86f7742880308185": {
+      "raidsSinceStarted": 8
+    },
+    "5d25cf2686f77443e75488d4": {
+      "raidsSinceStarted": 8
+    },
+    "5d25d2c186f77443e35162e5": {
+      "raidsSinceStarted": 8
     },
     "Lotus_762x39": {
-      "raidsSinceStarted": 2
+      "raidsSinceStarted": 8
     },
     "Lotus_762x51": {
-      "raidsSinceStarted": 2
+      "raidsSinceStarted": 8
     },
     "Lotus_762x54r": {
-      "raidsSinceStarted": 2
+      "raidsSinceStarted": 8
+    },
+    "5ac346a886f7744e1b083d67": {
+      "raidsSinceStarted": 8
+    },
+    "59675d6c86f7740a842fc482": {
+      "raidsSinceStarted": 8
+    },
+    "5d25e46e86f77409453bce7c": {
+      "raidsSinceStarted": 0
+    },
+    "Lotus_ruafinfil_4": {
+      "raidsSinceStarted": 8
+    },
+    "Lotus_arenadogs": {
+      "raidsSinceStarted": 8
+    },
+    "Lotus_narco_3": {
+      "raidsSinceStarted": 0
+    },
+    "597a0e5786f77426d66c0636": {
+      "raidsSinceStarted": 0
+    },
+    "639135e0fa894f0a866afde6": {
+      "raidsSinceStarted": 0
+    },
+    "64f731ab83cfca080a361e42": {
+      "raidsSinceStarted": 0
+    },
+    "639135a7e705511c8a4a1b78": {
+      "raidsSinceStarted": 0
     }
   }
 }

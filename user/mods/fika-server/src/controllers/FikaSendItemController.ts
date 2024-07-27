@@ -74,20 +74,10 @@ export class FikaSendItemController {
             }
         }
 
-        this.mailSendService.sendUserMessageToPlayer(
+        this.mailSendService.sendSystemMessageToPlayer(
             body.target,
-            {
-                _id: senderProfile.info.id,
-                aid: senderProfile.info.aid,
-                Info: {
-                    Nickname: senderProfile.info.username,
-                    Side: senderProfile.characters.pmc.Info.Side,
-                    Level: senderProfile.characters.pmc.Info.Level,
-                    MemberCategory: senderProfile.characters.pmc.Info.MemberCategory,
-                },
-            },
-            `You have received a gift from ${senderProfile.info.username}`,
-            itemsToSend,
+            `You have received a gift from ${senderProfile?.characters?.pmc?.Info?.Nickname ?? "unknown"}`,
+            itemsToSend
         );
 
         this.inventoryHelper.removeItem(senderProfile.characters.pmc, body.id, sessionID, output);
@@ -110,9 +100,16 @@ export class FikaSendItemController {
         const profiles = this.saveServer.getProfiles();
 
         for (const profile of Object.values(profiles)) {
-            const username = profile.info.username;
-            if (!(username in result) && username !== sender.info.username) {
-                result[username] = profile.info.id;
+            //Uninitialized profiles can cause this to error out, skip these.
+            if (!profile.characters?.pmc?.Info)
+                continue;
+
+            if (profile.info.password === "fika-dedicated")
+                continue;
+            
+            const nickname = profile.characters.pmc.Info.Nickname;
+            if (!(nickname in result) && nickname !== sender.characters.pmc.Info.Nickname) {
+                result[nickname] = profile.info.id;
             }
         }
 

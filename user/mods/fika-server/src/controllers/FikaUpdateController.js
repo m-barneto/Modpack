@@ -30,13 +30,6 @@ let FikaUpdateController = class FikaUpdateController {
         this.fikaMatchService.resetTimeout(request.serverId);
     }
     /**
-     * Handle /fika/update/spawnpoint
-     * @param request
-     */
-    handleSpawnpoint(request) {
-        this.fikaMatchService.setMatchSpawnPoint(request.serverId, request.name);
-    }
-    /**
      * Handle /fika/update/playerspawn
      * @param request
      */
@@ -48,7 +41,7 @@ let FikaUpdateController = class FikaUpdateController {
      * @param request
      */
     handleSethost(request) {
-        this.fikaMatchService.setMatchHost(request.serverId, request.ips, request.port, request.natPunch);
+        this.fikaMatchService.setMatchHost(request.serverId, request.ips, request.port, request.natPunch, request.isDedicated);
     }
     /**
      * Handle /fika/update/setstatus
@@ -56,6 +49,14 @@ let FikaUpdateController = class FikaUpdateController {
      */
     handleSetStatus(request) {
         this.fikaMatchService.setMatchStatus(request.serverId, request.status);
+    }
+    /**
+     * Handle /fika/update/addplayer
+     * @param request
+     * @returns
+     */
+    handleRaidAddPlayer(request) {
+        this.fikaMatchService.addPlayerToMatch(request.serverId, request.profileId, { groupId: null, isDead: false });
     }
 };
 exports.FikaUpdateController = FikaUpdateController;

@@ -30,11 +30,6 @@ let FikaUpdateCallbacks = class FikaUpdateCallbacks {
         this.fikaUpdateController.handlePing(info);
         return this.httpResponseUtil.nullResponse();
     }
-    /** Handle /fika/update/spawnpoint */
-    handleSpawnpoint(_url, info, _sessionID) {
-        this.fikaUpdateController.handleSpawnpoint(info);
-        return this.httpResponseUtil.nullResponse();
-    }
     /** Handle /fika/update/playerspawn */
     handlePlayerspawn(_url, info, _sessionID) {
         this.fikaUpdateController.handlePlayerspawn(info);
@@ -48,6 +43,11 @@ let FikaUpdateCallbacks = class FikaUpdateCallbacks {
     /** Handle /fika/update/setstatus */
     handleSetStatus(_url, info, _sessionID) {
         this.fikaUpdateController.handleSetStatus(info);
+        return this.httpResponseUtil.nullResponse();
+    }
+    /** Handle /fika/update/addplayer */
+    handleRaidAddPlayer(_url, info, _sessionID) {
+        this.fikaUpdateController.handleRaidAddPlayer(info);
         return this.httpResponseUtil.nullResponse();
     }
 };
